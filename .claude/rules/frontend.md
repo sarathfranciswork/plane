@@ -7,7 +7,7 @@
 - Named exports preferred (except page-level route components)
 - One concern per file -- aim for max 300 lines
 - All props must be typed with interfaces
-- Use `workspace:*` for internal @plane/* packages, `catalog:` for external deps
+- Use `workspace:*` for internal @jet/* packages, `catalog:` for external deps
 - Formatting with oxfmt, linting with OxLint
 - camelCase for variables/functions, PascalCase for components/types
 - API calls go through `packages/services/` -- never call axios directly from components
