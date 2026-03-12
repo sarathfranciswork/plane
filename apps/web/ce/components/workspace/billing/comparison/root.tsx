@@ -9,8 +9,8 @@ import { observer } from "mobx-react";
 import type { EProductSubscriptionEnum, TBillingFrequency } from "@jet/types";
 // components
 import { PlansComparisonBase, shouldRenderPlanDetail } from "@/components/workspace/billing/comparison/base";
-import type { TPlanePlans } from "@/constants/plans";
-import { PLANE_PLANS } from "@/constants/plans";
+import type { TJetPlans } from "@/constants/plans";
+import { JET_PLANS } from "@/constants/plans";
 // plane web imports
 import { PlanDetail } from "./plan-detail";
 
@@ -29,12 +29,12 @@ export const PlansComparison = observer(function PlansComparison(props: TPlansCo
     setIsCompareAllFeaturesSectionOpen,
   } = props;
   // plan details
-  const { planDetails } = PLANE_PLANS;
+  const { planDetails } = JET_PLANS;
 
   return (
     <PlansComparisonBase
       planeDetails={Object.entries(planDetails).map(([planKey, plan]) => {
-        const currentPlanKey = planKey as TPlanePlans;
+        const currentPlanKey = planKey as TJetPlans;
         if (!shouldRenderPlanDetail(currentPlanKey)) return null;
         return (
           <PlanDetail

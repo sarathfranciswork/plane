@@ -10,8 +10,8 @@ import { ArrowDown, ArrowUp } from "lucide-react";
 import { Button } from "@jet/propel/button";
 import { cn } from "@jet/utils";
 // constants
-import type { TPlanePlans } from "@/constants/plans";
-import { ComingSoonBadge, PLANE_PLANS, PLANS_LIST } from "@/constants/plans";
+import type { TJetPlans } from "@/constants/plans";
+import { ComingSoonBadge, JET_PLANS, PLANS_LIST } from "@/constants/plans";
 // local imports
 import { PlanFeatureDetail } from "./feature-detail";
 
@@ -22,7 +22,7 @@ type TPlansComparisonBaseProps = {
   setIsCompareAllFeaturesSectionOpen: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-export const shouldRenderPlanDetail = (planKey: TPlanePlans) => {
+export const shouldRenderPlanDetail = (planKey: TJetPlans) => {
   // Free plan is not required to be shown in the comparison
   if (planKey === "free") return false;
   // Plane one plan is not longer available
@@ -33,12 +33,12 @@ export const shouldRenderPlanDetail = (planKey: TPlanePlans) => {
 export const PlansComparisonBase = observer(function PlansComparisonBase(props: TPlansComparisonBaseProps) {
   const { planeDetails, isSelfManaged, isCompareAllFeaturesSectionOpen, setIsCompareAllFeaturesSectionOpen } = props;
   // plan details
-  const { planDetails, planHighlights, planComparison } = PLANE_PLANS;
+  const { planDetails, planHighlights, planComparison } = JET_PLANS;
   const numberOfPlansToRender = Object.keys(planDetails).filter((planKey) =>
-    shouldRenderPlanDetail(planKey as TPlanePlans)
+    shouldRenderPlanDetail(planKey as TJetPlans)
   ).length;
 
-  const getSubscriptionType = (planKey: TPlanePlans) => planDetails[planKey].id;
+  const getSubscriptionType = (planKey: TJetPlans) => planDetails[planKey].id;
 
   return (
     <div className="horizontal-scrollbar scrollbar-sm size-full overflow-x-auto">
@@ -63,7 +63,7 @@ export const PlansComparisonBase = observer(function PlansComparisonBase(props: 
               <div className="col-span-1 p-3 text-body-sm-medium">Highlights</div>
               {Object.entries(planHighlights).map(
                 ([planKey, highlights]) =>
-                  shouldRenderPlanDetail(planKey as TPlanePlans) && (
+                  shouldRenderPlanDetail(planKey as TJetPlans) && (
                     <div key={planKey} className="col-span-1 p-3">
                       <ul className="list-disc space-y-1 text-body-xs-regular">
                         {highlights.map((highlight, index) => (
