@@ -7,8 +7,8 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 import useSWR from "swr";
-import { setPromiseToast } from "@plane/propel/toast";
-import { Loader, ToggleSwitch } from "@plane/ui";
+import { setPromiseToast } from "@jet/propel/toast";
+import { Loader, ToggleSwitch } from "@jet/ui";
 // assets
 import GitlabLogo from "@/app/assets/logos/gitlab-logo.svg?url";
 // components

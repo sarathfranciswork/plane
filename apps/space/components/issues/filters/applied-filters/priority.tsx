@@ -4,8 +4,8 @@
  * See the LICENSE file for details.
  */
 
-import { CloseIcon, PriorityIcon } from "@plane/propel/icons";
-import type { TIssuePriorities } from "@plane/propel/icons";
+import { CloseIcon, PriorityIcon } from "@jet/propel/icons";
+import type { TIssuePriorities } from "@jet/propel/icons";
 
 type Props = {
   handleRemove: (val: string) => void;

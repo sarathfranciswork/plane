@@ -8,12 +8,12 @@ import React from "react";
 import { observer } from "mobx-react";
 import { ListFilter } from "lucide-react";
 // plane imports
-import type { TButtonSize, TButtonVariant } from "@plane/propel/button";
-import { getButtonStyling } from "@plane/propel/button";
-import type { IFilterInstance } from "@plane/shared-state";
-import type { TExternalFilter, TFilterProperty, TSupportedOperators } from "@plane/types";
-import { LOGICAL_OPERATOR } from "@plane/types";
-import { cn } from "@plane/utils";
+import type { TButtonSize, TButtonVariant } from "@jet/propel/button";
+import { getButtonStyling } from "@jet/propel/button";
+import type { IFilterInstance } from "@jet/shared-state";
+import type { TExternalFilter, TFilterProperty, TSupportedOperators } from "@jet/types";
+import { LOGICAL_OPERATOR } from "@jet/types";
+import { cn } from "@jet/utils";
 // local imports
 import { AddFilterDropdown } from "./dropdown";
 

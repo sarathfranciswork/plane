@@ -6,11 +6,11 @@
 
 import type { FC } from "react";
 // plane imports
-import type { I_THEME_OPTION } from "@plane/constants";
-import { THEME_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import type { I_THEME_OPTION } from "@jet/constants";
+import { THEME_OPTIONS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
 // constants
-import { CustomSelect } from "@plane/ui";
+import { CustomSelect } from "@jet/ui";
 // ui
 
 type Props = {

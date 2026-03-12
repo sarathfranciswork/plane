@@ -7,10 +7,10 @@
 import React, { useState } from "react";
 import { observer } from "mobx-react";
 import { HelpCircle, MessagesSquare, User } from "lucide-react";
-import { useTranslation } from "@plane/i18n";
-import { PageIcon } from "@plane/propel/icons";
+import { useTranslation } from "@jet/i18n";
+import { PageIcon } from "@jet/propel/icons";
 // ui
-import { CustomMenu } from "@plane/ui";
+import { CustomMenu } from "@jet/ui";
 // components
 import { ProductUpdatesModal } from "@/components/global";
 import { AppSidebarItem } from "@/components/sidebar/sidebar-item";

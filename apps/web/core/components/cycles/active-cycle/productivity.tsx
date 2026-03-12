@@ -10,9 +10,9 @@ import { observer } from "mobx-react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import type { ICycle, TCycleEstimateType } from "@plane/types";
-import { Loader } from "@plane/ui";
+import { useTranslation } from "@jet/i18n";
+import type { ICycle, TCycleEstimateType } from "@jet/types";
+import { Loader } from "@jet/ui";
 // assets
 import darkChartAsset from "@/app/assets/empty-state/active-cycle/chart-dark.webp?url";
 import lightChartAsset from "@/app/assets/empty-state/active-cycle/chart-light.webp?url";

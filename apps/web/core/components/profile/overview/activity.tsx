@@ -8,10 +8,10 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import useSWR from "swr";
 // ui
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateCompact } from "@plane/propel/empty-state";
-import { Loader, Card } from "@plane/ui";
-import { calculateTimeAgo, getFileURL } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import { EmptyStateCompact } from "@jet/propel/empty-state";
+import { Loader, Card } from "@jet/ui";
+import { calculateTimeAgo, getFileURL } from "@jet/utils";
 // components
 import { ActivityMessage, IssueLink } from "@/components/core/activity";
 // constants

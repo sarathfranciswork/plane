@@ -9,9 +9,9 @@ import { Database as HocuspocusDatabase } from "@hocuspocus/extension-database";
 import {
   getAllDocumentFormatsFromDocumentEditorBinaryData,
   getBinaryDataFromDocumentEditorHTMLString,
-} from "@plane/editor";
-import type { TDocumentPayload } from "@plane/types";
-import { logger } from "@plane/logger";
+} from "@jet/editor";
+import type { TDocumentPayload } from "@jet/types";
+import { logger } from "@jet/logger";
 // lib
 import { AppError } from "@/lib/errors";
 // services

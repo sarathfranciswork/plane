@@ -8,11 +8,11 @@ import React from "react";
 import { Link } from "react-router";
 import { MoreHorizontal, Pin } from "lucide-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { SetAsDefaultIcon } from "@plane/propel/icons";
-import { Menu } from "@plane/propel/menu";
-import { Tooltip } from "@plane/propel/tooltip";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import { SetAsDefaultIcon } from "@jet/propel/icons";
+import { Menu } from "@jet/propel/menu";
+import { Tooltip } from "@jet/propel/tooltip";
+import { cn } from "@jet/utils";
 // local imports
 import type { TNavigationItem } from "./tab-navigation-root";
 import type { TTabPreferences } from "./tab-navigation-utils";

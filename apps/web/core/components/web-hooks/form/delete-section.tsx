@@ -5,9 +5,9 @@
  */
 
 import { Disclosure, Transition } from "@headlessui/react";
-import { WORKSPACE_SETTINGS_TRACKER_ELEMENTS } from "@plane/constants";
-import { Button } from "@plane/propel/button";
-import { ChevronDownIcon, ChevronUpIcon } from "@plane/propel/icons";
+import { WORKSPACE_SETTINGS_TRACKER_ELEMENTS } from "@jet/constants";
+import { Button } from "@jet/propel/button";
+import { ChevronDownIcon, ChevronUpIcon } from "@jet/propel/icons";
 
 type Props = {
   openDeleteModal: () => void;

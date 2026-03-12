@@ -8,9 +8,9 @@ import type { FC } from "react";
 import React from "react";
 import { observer } from "mobx-react";
 import { Circle } from "lucide-react";
-import { ChevronDownIcon, ChevronUpIcon } from "@plane/propel/icons";
+import { ChevronDownIcon, ChevronUpIcon } from "@jet/propel/icons";
 // Plane
-import type { TIssueGroupByOptions, TIssueKanbanFilters } from "@plane/types";
+import type { TIssueGroupByOptions, TIssueKanbanFilters } from "@jet/types";
 // Plane-web
 import { WorkFlowGroupTree } from "@/plane-web/components/workflow";
 // mobx

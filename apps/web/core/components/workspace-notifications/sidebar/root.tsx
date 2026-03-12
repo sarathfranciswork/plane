@@ -8,11 +8,11 @@ import { useCallback } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import type { TNotificationTab } from "@plane/constants";
-import { NOTIFICATION_TABS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { Header, Row, ERowVariant, EHeaderVariant, ContentWrapper } from "@plane/ui";
-import { cn, getNumberCount } from "@plane/utils";
+import type { TNotificationTab } from "@jet/constants";
+import { NOTIFICATION_TABS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { Header, Row, ERowVariant, EHeaderVariant, ContentWrapper } from "@jet/ui";
+import { cn, getNumberCount } from "@jet/utils";
 // components
 import { CountChip } from "@/components/common/count-chip";
 // hooks

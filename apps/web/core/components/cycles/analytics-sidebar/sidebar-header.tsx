@@ -9,12 +9,12 @@ import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
 import { ArrowRight } from "lucide-react";
 // Plane Imports
-import { CYCLE_STATUS, EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { ChevronRightIcon } from "@plane/propel/icons";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import type { ICycle } from "@plane/types";
-import { getDate, renderFormattedPayloadDate } from "@plane/utils";
+import { CYCLE_STATUS, EUserPermissions, EUserPermissionsLevel } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { ChevronRightIcon } from "@jet/propel/icons";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import type { ICycle } from "@jet/types";
+import { getDate, renderFormattedPayloadDate } from "@jet/utils";
 // components
 import { DateRangeDropdown } from "@/components/dropdowns/date-range";
 // hooks

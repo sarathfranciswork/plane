@@ -6,15 +6,15 @@
 
 import { LayoutGrid } from "lucide-react";
 // plane imports
-import { CycleIcon, ModuleIcon, PageIcon, ProjectIcon, ViewsIcon } from "@plane/propel/icons";
+import { CycleIcon, ModuleIcon, PageIcon, ProjectIcon, ViewsIcon } from "@jet/propel/icons";
 import type {
   IWorkspaceDefaultSearchResult,
   IWorkspaceIssueSearchResult,
   IWorkspacePageSearchResult,
   IWorkspaceProjectSearchResult,
   IWorkspaceSearchResult,
-} from "@plane/types";
-import { generateWorkItemLink } from "@plane/utils";
+} from "@jet/types";
+import { generateWorkItemLink } from "@jet/utils";
 // plane web components
 import { IssueIdentifier } from "@/plane-web/components/issues/issue-details/issue-identifier";
 

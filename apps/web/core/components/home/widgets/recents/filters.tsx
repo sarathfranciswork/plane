@@ -6,11 +6,11 @@
 
 import type { FC } from "react";
 import { observer } from "mobx-react";
-import { useTranslation } from "@plane/i18n";
-import { ChevronDownIcon } from "@plane/propel/icons";
-import type { TRecentActivityFilterKeys } from "@plane/types";
-import { CustomMenu } from "@plane/ui";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import { ChevronDownIcon } from "@jet/propel/icons";
+import type { TRecentActivityFilterKeys } from "@jet/types";
+import { CustomMenu } from "@jet/ui";
+import { cn } from "@jet/utils";
 
 export type TFiltersDropdown = {
   className?: string;

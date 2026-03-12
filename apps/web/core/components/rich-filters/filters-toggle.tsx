@@ -6,11 +6,11 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { IconButton } from "@plane/propel/icon-button";
-import { FilterIcon, FilterAppliedIcon } from "@plane/propel/icons";
-import { cn } from "@plane/utils";
-import type { IFilterInstance } from "@plane/shared-state";
-import type { TExternalFilter, TFilterProperty } from "@plane/types";
+import { IconButton } from "@jet/propel/icon-button";
+import { FilterIcon, FilterAppliedIcon } from "@jet/propel/icons";
+import { cn } from "@jet/utils";
+import type { IFilterInstance } from "@jet/shared-state";
+import type { TExternalFilter, TFilterProperty } from "@jet/types";
 // components
 import { AddFilterButton } from "@/components/rich-filters/add-filters/button";
 

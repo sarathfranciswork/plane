@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import type { TWebhookConnectionQueryParams } from "@plane/types";
+import type { TWebhookConnectionQueryParams } from "@jet/types";
 import type { TExtendedFileHandler } from "@/plane-editor/types/config";
 
 export type TFileHandler = {

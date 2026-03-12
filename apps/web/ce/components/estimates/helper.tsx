@@ -4,8 +4,8 @@
  * See the LICENSE file for details.
  */
 
-import type { TEstimateSystemKeys } from "@plane/types";
-import { EEstimateSystem } from "@plane/types";
+import type { TEstimateSystemKeys } from "@jet/types";
+import { EEstimateSystem } from "@jet/types";
 
 export const isEstimateSystemEnabled = (key: TEstimateSystemKeys) => {
   switch (key) {

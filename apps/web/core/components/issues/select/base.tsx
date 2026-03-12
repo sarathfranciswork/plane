@@ -10,13 +10,13 @@ import { observer } from "mobx-react";
 import { usePopper } from "react-popper";
 import { Component, Loader } from "lucide-react";
 import { Combobox } from "@headlessui/react";
-import { getRandomLabelColor } from "@plane/constants";
+import { getRandomLabelColor } from "@jet/constants";
 // plane imports
-import { useOutsideClickDetector } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
-import { CheckIcon, SearchIcon, LabelPropertyIcon } from "@plane/propel/icons";
-import type { IIssueLabel } from "@plane/types";
-import { cn } from "@plane/utils";
+import { useOutsideClickDetector } from "@jet/hooks";
+import { useTranslation } from "@jet/i18n";
+import { CheckIcon, SearchIcon, LabelPropertyIcon } from "@jet/propel/icons";
+import type { IIssueLabel } from "@jet/types";
+import { cn } from "@jet/utils";
 // components
 import { IssueLabelsList } from "@/components/ui/labels-list";
 // hooks

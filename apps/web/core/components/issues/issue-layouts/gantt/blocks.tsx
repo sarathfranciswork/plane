@@ -7,10 +7,10 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import { Popover } from "@plane/propel/popover";
-import { Tooltip } from "@plane/propel/tooltip";
-import { ControlLink } from "@plane/ui";
-import { findTotalDaysInRange, generateWorkItemLink } from "@plane/utils";
+import { Popover } from "@jet/propel/popover";
+import { Tooltip } from "@jet/propel/tooltip";
+import { ControlLink } from "@jet/ui";
+import { findTotalDaysInRange, generateWorkItemLink } from "@jet/utils";
 // components
 import { SIDEBAR_WIDTH } from "@/components/gantt-chart/constants";
 // hooks

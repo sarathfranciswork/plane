@@ -9,10 +9,10 @@ import { isEmpty } from "lodash-es";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // Plane imports
-import { useTranslation } from "@plane/i18n";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import type { TIssue } from "@plane/types";
-import { isEmptyHtmlString } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import type { TIssue } from "@jet/types";
+import { isEmptyHtmlString } from "@jet/utils";
 // hooks
 import { useIssueModal } from "@/hooks/context/use-issue-modal";
 import { useWorkspaceDraftIssues } from "@/hooks/store/workspace-draft";

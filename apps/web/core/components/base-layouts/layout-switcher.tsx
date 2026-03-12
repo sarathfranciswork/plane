@@ -4,10 +4,10 @@
  * See the LICENSE file for details.
  */
 
-import { useTranslation } from "@plane/i18n";
-import { Tooltip } from "@plane/propel/tooltip";
-import type { TBaseLayoutType } from "@plane/types";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import { Tooltip } from "@jet/propel/tooltip";
+import type { TBaseLayoutType } from "@jet/types";
+import { cn } from "@jet/utils";
 import { usePlatformOS } from "@/hooks/use-platform-os";
 import { BASE_LAYOUTS } from "./constants";
 

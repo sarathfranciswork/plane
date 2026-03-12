@@ -8,12 +8,12 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import { EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateDetailed } from "@plane/propel/empty-state";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import type { ISearchIssueResponse } from "@plane/types";
-import { EIssuesStoreType, EUserProjectRoles } from "@plane/types";
+import { EUserPermissionsLevel } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { EmptyStateDetailed } from "@jet/propel/empty-state";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import type { ISearchIssueResponse } from "@jet/types";
+import { EIssuesStoreType, EUserProjectRoles } from "@jet/types";
 // components
 import { ExistingIssuesListModal } from "@/components/core/modals/existing-issues-list-modal";
 // hooks

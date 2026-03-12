@@ -8,7 +8,7 @@ import type {
   IFormattedInstanceConfiguration,
   TInstanceAuthenticationModes,
   TInstanceConfigurationKeys,
-} from "@plane/types";
+} from "@jet/types";
 
 /**
  * Checks if a given authentication method can be disabled.

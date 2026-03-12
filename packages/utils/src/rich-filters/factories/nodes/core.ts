@@ -13,8 +13,8 @@ import type {
   TFilterExpression,
   TFilterProperty,
   TFilterValue,
-} from "@plane/types";
-import { FILTER_NODE_TYPE, LOGICAL_OPERATOR } from "@plane/types";
+} from "@jet/types";
+import { FILTER_NODE_TYPE, LOGICAL_OPERATOR } from "@jet/types";
 
 /**
  * Creates a condition node with a unique ID.

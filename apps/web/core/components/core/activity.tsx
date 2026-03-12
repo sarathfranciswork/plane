@@ -32,10 +32,10 @@ import {
   ModuleIcon,
   RelatedIcon,
   WorkItemsIcon,
-} from "@plane/propel/icons";
-import { Tooltip } from "@plane/propel/tooltip";
-import type { IIssueActivity } from "@plane/types";
-import { renderFormattedDate, generateWorkItemLink, capitalizeFirstLetter } from "@plane/utils";
+} from "@jet/propel/icons";
+import { Tooltip } from "@jet/propel/tooltip";
+import type { IIssueActivity } from "@jet/types";
+import { renderFormattedDate, generateWorkItemLink, capitalizeFirstLetter } from "@jet/utils";
 // helpers
 import { useLabel } from "@/hooks/store/use-label";
 import { usePlatformOS } from "@/hooks/use-platform-os";

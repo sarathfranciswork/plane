@@ -6,10 +6,10 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import type { TDescriptionVersion } from "@plane/types";
-import { Avatar, CustomMenu } from "@plane/ui";
-import { calculateTimeAgo, getFileURL } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import type { TDescriptionVersion } from "@jet/types";
+import { Avatar, CustomMenu } from "@jet/ui";
+import { calculateTimeAgo, getFileURL } from "@jet/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 

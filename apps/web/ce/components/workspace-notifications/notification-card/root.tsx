@@ -7,8 +7,8 @@
 import type { FC } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { ENotificationLoader, ENotificationQueryParamType } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ENotificationLoader, ENotificationQueryParamType } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
 // components
 import { NotificationItem } from "@/components/workspace-notifications/sidebar/notification-card/item";
 // hooks

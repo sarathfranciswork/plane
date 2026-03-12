@@ -8,9 +8,9 @@ import type { FC } from "react";
 import { useState } from "react";
 import { observer } from "mobx-react";
 // types
-import { INBOX_STATUS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TInboxIssueStatus } from "@plane/types";
+import { INBOX_STATUS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import type { TInboxIssueStatus } from "@jet/types";
 // components
 import { FilterHeader, FilterOption } from "@/components/issues/issue-layouts/filters";
 // constants

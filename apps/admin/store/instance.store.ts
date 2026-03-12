@@ -7,9 +7,9 @@
 import { set } from "lodash-es";
 import { observable, action, computed, makeObservable, runInAction } from "mobx";
 // plane internal packages
-import type { TInstanceStatus } from "@plane/constants";
-import { EInstanceStatus } from "@plane/constants";
-import { InstanceService } from "@plane/services";
+import type { TInstanceStatus } from "@jet/constants";
+import { EInstanceStatus } from "@jet/constants";
+import { InstanceService } from "@jet/services";
 import type {
   IInstance,
   IInstanceAdmin,
@@ -17,7 +17,7 @@ import type {
   IFormattedInstanceConfiguration,
   IInstanceInfo,
   IInstanceConfig,
-} from "@plane/types";
+} from "@jet/types";
 // root store
 import type { RootStore } from "@/store/root.store";
 

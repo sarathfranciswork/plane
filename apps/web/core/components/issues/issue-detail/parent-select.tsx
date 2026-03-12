@@ -8,11 +8,11 @@ import React from "react";
 import { observer } from "mobx-react";
 import Link from "next/link";
 
-import { useTranslation } from "@plane/i18n";
-import { EditIcon, CloseIcon } from "@plane/propel/icons";
+import { useTranslation } from "@jet/i18n";
+import { EditIcon, CloseIcon } from "@jet/propel/icons";
 // plane imports
-import { Tooltip } from "@plane/propel/tooltip";
-import { cn } from "@plane/utils";
+import { Tooltip } from "@jet/propel/tooltip";
+import { cn } from "@jet/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useProject } from "@/hooks/store/use-project";

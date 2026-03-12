@@ -8,11 +8,11 @@ import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { Eye, EyeOff } from "lucide-react";
 // plane internal packages
-import type { EAdminAuthErrorCodes, TAdminAuthErrorInfo } from "@plane/constants";
-import { API_BASE_URL } from "@plane/constants";
-import { Button } from "@plane/propel/button";
-import { AuthService } from "@plane/services";
-import { Input, Spinner } from "@plane/ui";
+import type { EAdminAuthErrorCodes, TAdminAuthErrorInfo } from "@jet/constants";
+import { API_BASE_URL } from "@jet/constants";
+import { Button } from "@jet/propel/button";
+import { AuthService } from "@jet/services";
+import { Input, Spinner } from "@jet/ui";
 // components
 import { Banner } from "@/components/common/banner";
 // local components
@@ -114,7 +114,7 @@ export function InstanceSignInForm() {
       <div className="mt-10 flex w-full flex-grow flex-col items-center justify-center py-6">
         <div className="relative flex w-full max-w-[22.5rem] flex-col gap-6">
           <FormHeader
-            heading="Manage your Plane instance"
+            heading="Manage your Jet instance"
             subHeading="Configure instance-wide settings to secure your instance"
           />
           <form

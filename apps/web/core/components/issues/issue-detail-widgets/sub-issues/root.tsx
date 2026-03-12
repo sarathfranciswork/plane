@@ -8,8 +8,8 @@ import type { FC } from "react";
 import React from "react";
 import { observer } from "mobx-react";
 // plane imports
-import type { TIssueServiceType } from "@plane/types";
-import { Collapsible } from "@plane/ui";
+import type { TIssueServiceType } from "@jet/types";
+import { Collapsible } from "@jet/ui";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 // local imports

@@ -7,7 +7,7 @@
 import type { FC } from "react";
 import { Crown } from "lucide-react";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 
 type TProIcon = {
   className?: string;

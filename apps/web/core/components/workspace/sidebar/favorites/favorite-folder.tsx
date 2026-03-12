@@ -22,14 +22,14 @@ import { createRoot } from "react-dom/client";
 import { Star, MoreHorizontal, GripVertical } from "lucide-react";
 import { Disclosure, Transition } from "@headlessui/react";
 // plane imports
-import { useOutsideClickDetector } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
-import { DraftIcon, FavoriteFolderIcon, ChevronRightIcon } from "@plane/propel/icons";
-import { Tooltip } from "@plane/propel/tooltip";
-import type { IFavorite, InstructionType } from "@plane/types";
-import { CustomMenu, DropIndicator, DragHandle } from "@plane/ui";
+import { useOutsideClickDetector } from "@jet/hooks";
+import { useTranslation } from "@jet/i18n";
+import { DraftIcon, FavoriteFolderIcon, ChevronRightIcon } from "@jet/propel/icons";
+import { Tooltip } from "@jet/propel/tooltip";
+import type { IFavorite, InstructionType } from "@jet/types";
+import { CustomMenu, DropIndicator, DragHandle } from "@jet/ui";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 // hooks
 import { useFavorite } from "@/hooks/store/use-favorite";
 import { usePlatformOS } from "@/hooks/use-platform-os";

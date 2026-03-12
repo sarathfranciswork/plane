@@ -7,7 +7,7 @@
 import { DOMParser } from "@tiptap/pm/model";
 import type { EditorProps } from "@tiptap/pm/view";
 // plane utils
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 // helpers
 import { processAssetDuplication } from "@/helpers/paste-asset";
 

@@ -4,6 +4,6 @@
  * See the LICENSE file for details.
  */
 
-import type { IIssueDisplayFilterOptions } from "@plane/types";
+import type { IIssueDisplayFilterOptions } from "@jet/types";
 
 export const getEnabledDisplayFilters = (displayFilters: IIssueDisplayFilterOptions) => displayFilters;

@@ -6,9 +6,9 @@
 
 // components
 // ui
-import { useTranslation } from "@plane/i18n";
-import { Button } from "@plane/propel/button";
-import type { IWebhook } from "@plane/types";
+import { useTranslation } from "@jet/i18n";
+import { Button } from "@jet/propel/button";
+import type { IWebhook } from "@jet/types";
 // types
 import { WebhookSecretKey } from "./form";
 

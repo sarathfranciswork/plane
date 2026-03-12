@@ -9,19 +9,19 @@ import type { FC } from "react";
 import { observer } from "mobx-react";
 import { useParams, useRouter } from "next/navigation";
 import { PanelRight } from "lucide-react";
-import { PROFILE_VIEWER_TAB, PROFILE_ADMINS_TAB, EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { YourWorkIcon, ChevronDownIcon } from "@plane/propel/icons";
-import type { IUserProfileProjectSegregation } from "@plane/types";
-import { Breadcrumbs, Header, CustomMenu } from "@plane/ui";
-import { cn } from "@plane/utils";
+import { PROFILE_VIEWER_TAB, PROFILE_ADMINS_TAB, EUserPermissions, EUserPermissionsLevel } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { YourWorkIcon, ChevronDownIcon } from "@jet/propel/icons";
+import type { IUserProfileProjectSegregation } from "@jet/types";
+import { Breadcrumbs, Header, CustomMenu } from "@jet/ui";
+import { cn } from "@jet/utils";
 // components
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";
 import { ProfileIssuesFilter } from "@/components/profile/profile-issues-filter";
 // hooks
 import { useAppTheme } from "@/hooks/store/use-app-theme";
 import { useUser, useUserPermissions } from "@/hooks/store/user";
-import { Button } from "@plane/propel/button";
+import { Button } from "@jet/propel/button";
 
 type TUserProfileHeader = {
   userProjectsData: IUserProfileProjectSegregation | undefined;

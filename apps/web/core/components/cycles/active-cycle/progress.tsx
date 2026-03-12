@@ -8,11 +8,11 @@ import type { FC } from "react";
 import { observer } from "mobx-react";
 import { useTheme } from "next-themes";
 // plane imports
-import { PROGRESS_STATE_GROUPS_DETAILS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TWorkItemFilterCondition } from "@plane/shared-state";
-import type { ICycle } from "@plane/types";
-import { LinearProgressIndicator, Loader } from "@plane/ui";
+import { PROGRESS_STATE_GROUPS_DETAILS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import type { TWorkItemFilterCondition } from "@jet/shared-state";
+import type { ICycle } from "@jet/types";
+import { LinearProgressIndicator, Loader } from "@jet/ui";
 // assets
 import darkProgressAsset from "@/app/assets/empty-state/active-cycle/progress-dark.webp?url";
 import lightProgressAsset from "@/app/assets/empty-state/active-cycle/progress-light.webp?url";

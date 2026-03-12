@@ -8,8 +8,8 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import useSWR from "swr";
 import { MessageSquare } from "lucide-react";
-import type { IFormattedInstanceConfiguration } from "@plane/types";
-import { ToggleSwitch } from "@plane/ui";
+import type { IFormattedInstanceConfiguration } from "@jet/types";
+import { ToggleSwitch } from "@jet/ui";
 // hooks
 import { useInstance } from "@/hooks/store";
 

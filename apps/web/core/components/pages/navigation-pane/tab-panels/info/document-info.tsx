@@ -7,9 +7,9 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import type { TDocumentInfo } from "@plane/editor";
-import { useTranslation } from "@plane/i18n";
-import { getReadTimeFromWordsCount } from "@plane/utils";
+import type { TDocumentInfo } from "@jet/editor";
+import { useTranslation } from "@jet/i18n";
+import { getReadTimeFromWordsCount } from "@jet/utils";
 // store
 import type { TPageInstance } from "@/store/pages/base-page";
 

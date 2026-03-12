@@ -5,10 +5,10 @@
  */
 
 import { observer } from "mobx-react";
-import { MODULE_VIEW_LAYOUTS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { ChevronDownIcon } from "@plane/propel/icons";
-import { CustomMenu, Row } from "@plane/ui";
+import { MODULE_VIEW_LAYOUTS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { ChevronDownIcon } from "@jet/propel/icons";
+import { CustomMenu, Row } from "@jet/ui";
 import { ModuleLayoutIcon } from "@/components/modules";
 import { useModuleFilter } from "@/hooks/store/use-module-filter";
 import { useProject } from "@/hooks/store/use-project";

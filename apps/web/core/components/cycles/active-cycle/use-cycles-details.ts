@@ -8,8 +8,8 @@ import { useCallback } from "react";
 import { useRouter } from "next/navigation";
 import useSWR from "swr";
 // plane imports
-import type { TWorkItemFilterCondition } from "@plane/shared-state";
-import { EIssuesStoreType } from "@plane/types";
+import type { TWorkItemFilterCondition } from "@jet/shared-state";
+import { EIssuesStoreType } from "@jet/types";
 // constants
 import { CYCLE_ISSUES_WITH_PARAMS } from "@/constants/fetch-keys";
 // hooks

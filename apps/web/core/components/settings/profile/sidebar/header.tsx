@@ -6,10 +6,10 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { Avatar } from "@plane/ui";
+import { Avatar } from "@jet/ui";
 // hooks
 import { useUser } from "@/hooks/store/user";
-import { getFileURL } from "@plane/utils";
+import { getFileURL } from "@jet/utils";
 
 export const ProfileSettingsSidebarHeader = observer(function ProfileSettingsSidebarHeader() {
   // store hooks

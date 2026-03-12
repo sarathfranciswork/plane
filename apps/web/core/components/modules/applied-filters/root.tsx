@@ -4,12 +4,12 @@
  * See the LICENSE file for details.
  */
 
-import { useTranslation } from "@plane/i18n";
-import { CloseIcon } from "@plane/propel/icons";
-import type { TModuleDisplayFilters, TModuleFilters } from "@plane/types";
+import { useTranslation } from "@jet/i18n";
+import { CloseIcon } from "@jet/propel/icons";
+import type { TModuleDisplayFilters, TModuleFilters } from "@jet/types";
 // components
-import { Header, EHeaderVariant, Tag } from "@plane/ui";
-import { replaceUnderscoreIfSnakeCase } from "@plane/utils";
+import { Header, EHeaderVariant, Tag } from "@jet/ui";
+import { replaceUnderscoreIfSnakeCase } from "@jet/utils";
 import { AppliedDateFilters, AppliedMembersFilters, AppliedStatusFilters } from "@/components/modules";
 // helpers
 // types

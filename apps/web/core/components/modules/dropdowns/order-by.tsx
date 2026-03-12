@@ -5,15 +5,15 @@
  */
 
 import { ArrowDownWideNarrow, ArrowUpWideNarrow } from "lucide-react";
-import { MODULE_ORDER_BY_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { getButtonStyling } from "@plane/propel/button";
-import { CheckIcon, ChevronDownIcon } from "@plane/propel/icons";
-import type { TModuleOrderByOptions } from "@plane/types";
+import { MODULE_ORDER_BY_OPTIONS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { getButtonStyling } from "@jet/propel/button";
+import { CheckIcon, ChevronDownIcon } from "@jet/propel/icons";
+import type { TModuleOrderByOptions } from "@jet/types";
 // ui
-import { CustomMenu } from "@plane/ui";
+import { CustomMenu } from "@jet/ui";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 // types
 // constants
 

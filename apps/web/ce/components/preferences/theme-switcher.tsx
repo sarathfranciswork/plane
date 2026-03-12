@@ -8,11 +8,11 @@ import { useCallback, useMemo } from "react";
 import { observer } from "mobx-react";
 import { useTheme } from "next-themes";
 // plane imports
-import type { I_THEME_OPTION } from "@plane/constants";
-import { THEME_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { setPromiseToast } from "@plane/propel/toast";
-import { applyCustomTheme } from "@plane/utils";
+import type { I_THEME_OPTION } from "@jet/constants";
+import { THEME_OPTIONS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { setPromiseToast } from "@jet/propel/toast";
+import { applyCustomTheme } from "@jet/utils";
 // components
 import { CustomThemeSelector } from "@/components/core/theme/custom-theme-selector";
 import { ThemeSwitch } from "@/components/core/theme/theme-switch";

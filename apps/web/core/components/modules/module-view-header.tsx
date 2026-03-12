@@ -10,15 +10,15 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { ListFilter } from "lucide-react";
 // plane helpers
-import { MODULE_VIEW_LAYOUTS } from "@plane/constants";
-import { useOutsideClickDetector } from "@plane/hooks";
+import { MODULE_VIEW_LAYOUTS } from "@jet/constants";
+import { useOutsideClickDetector } from "@jet/hooks";
 // types
-import { useTranslation } from "@plane/i18n";
-import { SearchIcon, CloseIcon } from "@plane/propel/icons";
-import { Tooltip } from "@plane/propel/tooltip";
-import type { TModuleFilters } from "@plane/types";
+import { useTranslation } from "@jet/i18n";
+import { SearchIcon, CloseIcon } from "@jet/propel/icons";
+import { Tooltip } from "@jet/propel/tooltip";
+import type { TModuleFilters } from "@jet/types";
 // ui
-import { cn, calculateTotalFilters } from "@plane/utils";
+import { cn, calculateTotalFilters } from "@jet/utils";
 // plane utils
 // components
 import { FiltersDropdown } from "@/components/issues/issue-layouts/filters";
@@ -30,7 +30,7 @@ import { useMember } from "@/hooks/store/use-member";
 import { useModuleFilter } from "@/hooks/store/use-module-filter";
 import { usePlatformOS } from "@/hooks/use-platform-os";
 import { ModuleLayoutIcon } from "./module-layout-icon";
-import { IconButton } from "@plane/propel/icon-button";
+import { IconButton } from "@jet/propel/icon-button";
 // i18n
 
 export const ModuleViewHeader = observer(function ModuleViewHeader() {

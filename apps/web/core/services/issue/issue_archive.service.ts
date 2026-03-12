@@ -4,9 +4,9 @@
  * See the LICENSE file for details.
  */
 
-import { API_BASE_URL } from "@plane/constants";
-import type { TIssue, TIssueServiceType } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
+import { API_BASE_URL } from "@jet/constants";
+import type { TIssue, TIssueServiceType } from "@jet/types";
+import { EIssueServiceType } from "@jet/types";
 import { APIService } from "@/services/api.service";
 // types
 // constants

@@ -5,11 +5,11 @@
  */
 
 // plane imports
-import { STATE_GROUPS } from "@plane/constants";
+import { STATE_GROUPS } from "@jet/constants";
 // types
-import { useTranslation } from "@plane/i18n";
-import type { IUserStateDistribution } from "@plane/types";
-import { Card, ECardDirection, ECardSpacing } from "@plane/ui";
+import { useTranslation } from "@jet/i18n";
+import type { IUserStateDistribution } from "@jet/types";
+import { Card, ECardDirection, ECardSpacing } from "@jet/ui";
 // constants
 
 type Props = {

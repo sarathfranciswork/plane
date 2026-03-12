@@ -6,7 +6,7 @@
 
 import type { FC } from "react";
 import React from "react";
-import type { TIssueServiceType } from "@plane/types";
+import type { TIssueServiceType } from "@jet/types";
 // components
 import { LinkList } from "../../issue-detail/links";
 // helper

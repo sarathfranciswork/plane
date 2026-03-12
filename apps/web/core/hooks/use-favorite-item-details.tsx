@@ -5,9 +5,9 @@
  */
 
 // plane imports
-import type { IFavorite } from "@plane/types";
+import type { IFavorite } from "@jet/types";
 // components
-import { getPageName } from "@plane/utils";
+import { getPageName } from "@jet/utils";
 import {
   generateFavoriteItemLink,
   getFavoriteItemIcon,

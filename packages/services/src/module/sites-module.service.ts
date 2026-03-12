@@ -5,9 +5,9 @@
  */
 
 // plane imports
-import { API_BASE_URL } from "@plane/constants";
+import { API_BASE_URL } from "@jet/constants";
 // api service
-import type { TPublicModule } from "@plane/types";
+import type { TPublicModule } from "@jet/types";
 import { APIService } from "../api.service";
 
 /**

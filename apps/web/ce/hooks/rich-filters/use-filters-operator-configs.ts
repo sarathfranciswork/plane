@@ -4,8 +4,8 @@
  * See the LICENSE file for details.
  */
 
-import type { TSupportedOperators } from "@plane/types";
-import { CORE_OPERATORS } from "@plane/types";
+import type { TSupportedOperators } from "@jet/types";
+import { CORE_OPERATORS } from "@jet/types";
 
 export type TFiltersOperatorConfigs = {
   allowedOperators: Set<TSupportedOperators>;

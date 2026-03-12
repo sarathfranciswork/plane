@@ -6,10 +6,10 @@
 
 import { FileText, FolderPlus, Layers, SquarePlus } from "lucide-react";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { ContrastIcon, DiceIcon, LayersIcon } from "@plane/propel/icons";
+import { EUserPermissions, EUserPermissionsLevel } from "@jet/constants";
+import { ContrastIcon, DiceIcon, LayersIcon } from "@jet/propel/icons";
 // components
-import { EUserProjectRoles } from "@plane/types";
+import { EUserProjectRoles } from "@jet/types";
 import type { TPowerKCommandConfig, TPowerKContext } from "@/components/power-k/core/types";
 // hooks
 import { useCommandPalette } from "@/hooks/store/use-command-palette";

@@ -5,11 +5,11 @@
  */
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import type { EditorRefApi, CollaborationState } from "@plane/editor";
+import type { EditorRefApi, CollaborationState } from "@jet/editor";
 // plane editor
-import { convertBinaryDataToBase64String, getBinaryDataFromDocumentEditorHTMLString } from "@plane/editor";
+import { convertBinaryDataToBase64String, getBinaryDataFromDocumentEditorHTMLString } from "@jet/editor";
 // plane types
-import type { TDocumentPayload } from "@plane/types";
+import type { TDocumentPayload } from "@jet/types";
 // hooks
 import useAutoSave from "@/hooks/use-auto-save";
 import type { TPageInstance } from "@/store/pages/base-page";

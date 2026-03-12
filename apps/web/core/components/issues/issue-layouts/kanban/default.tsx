@@ -7,7 +7,7 @@
 import type { MutableRefObject } from "react";
 import { observer } from "mobx-react";
 // i18n
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@jet/i18n";
 import type {
   GroupByColumnTypes,
   IGroupByColumn,
@@ -19,9 +19,9 @@ import type {
   TIssueKanbanFilters,
   TIssueGroupByOptions,
   TIssueOrderByOptions,
-} from "@plane/types";
+} from "@jet/types";
 // constants
-import { ContentWrapper } from "@plane/ui";
+import { ContentWrapper } from "@jet/ui";
 // components
 import RenderIfVisible from "@/components/core/render-if-visible-HOC";
 import { KanbanColumnLoader } from "@/components/ui/loader/layouts/kanban-layout-loader";

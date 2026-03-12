@@ -5,7 +5,7 @@
  */
 
 import type { FC } from "react";
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 
 type Props = {
   icon: React.ReactNode;

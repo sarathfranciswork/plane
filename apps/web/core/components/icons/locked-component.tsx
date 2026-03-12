@@ -4,8 +4,8 @@
  * See the LICENSE file for details.
  */
 
-import { LockIcon } from "@plane/propel/icons";
-import { Tooltip } from "@plane/propel/tooltip";
+import { LockIcon } from "@jet/propel/icons";
+import { Tooltip } from "@jet/propel/tooltip";
 
 export function LockedComponent(props: { toolTipContent?: string }) {
   const { toolTipContent } = props;

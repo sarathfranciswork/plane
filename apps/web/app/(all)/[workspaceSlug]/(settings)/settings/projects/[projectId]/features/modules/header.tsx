@@ -6,9 +6,9 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { PROJECT_SETTINGS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { Breadcrumbs } from "@plane/ui";
+import { PROJECT_SETTINGS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { Breadcrumbs } from "@jet/ui";
 // components
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";
 import { SettingsPageHeader } from "@/components/settings/page-header";

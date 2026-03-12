@@ -8,11 +8,11 @@ import type { FC } from "react";
 import { useMemo, useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { stringToEmoji } from "@plane/propel/emoji-icon-picker";
-import { EmojiReactionGroup, EmojiReactionPicker } from "@plane/propel/emoji-reaction";
-import type { EmojiReactionType } from "@plane/propel/emoji-reaction";
-import type { TCommentsOperations, TIssueComment } from "@plane/types";
-import { cn } from "@plane/utils";
+import { stringToEmoji } from "@jet/propel/emoji-icon-picker";
+import { EmojiReactionGroup, EmojiReactionPicker } from "@jet/propel/emoji-reaction";
+import type { EmojiReactionType } from "@jet/propel/emoji-reaction";
+import type { TCommentsOperations, TIssueComment } from "@jet/types";
+import { cn } from "@jet/utils";
 // helpers
 // local imports
 

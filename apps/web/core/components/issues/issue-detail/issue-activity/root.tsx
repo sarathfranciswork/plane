@@ -8,13 +8,13 @@ import { useMemo } from "react";
 import uniq from "lodash-es/uniq";
 import { observer } from "mobx-react";
 // plane package imports
-import type { TActivityFilters } from "@plane/constants";
-import { E_SORT_ORDER, defaultActivityFilters, EUserPermissions } from "@plane/constants";
-import { useLocalStorage } from "@plane/hooks";
+import type { TActivityFilters } from "@jet/constants";
+import { E_SORT_ORDER, defaultActivityFilters, EUserPermissions } from "@jet/constants";
+import { useLocalStorage } from "@jet/hooks";
 // i18n
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@jet/i18n";
 //types
-import type { TFileSignedURLResponse, TIssueComment } from "@plane/types";
+import type { TFileSignedURLResponse, TIssueComment } from "@jet/types";
 // components
 import { CommentCreate } from "@/components/comments/comment-create";
 // hooks

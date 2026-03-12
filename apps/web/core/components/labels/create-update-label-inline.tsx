@@ -11,12 +11,12 @@ import type { SubmitHandler } from "react-hook-form";
 import { Controller, useForm } from "react-hook-form";
 import { Popover, Transition } from "@headlessui/react";
 // plane imports
-import { getRandomLabelColor, LABEL_COLOR_OPTIONS, PROJECT_SETTINGS_TRACKER_EVENTS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { Button } from "@plane/propel/button";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import type { IIssueLabel } from "@plane/types";
-import { Input } from "@plane/ui";
+import { getRandomLabelColor, LABEL_COLOR_OPTIONS, PROJECT_SETTINGS_TRACKER_EVENTS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { Button } from "@jet/propel/button";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import type { IIssueLabel } from "@jet/types";
+import { Input } from "@jet/ui";
 
 // error codes
 const errorCodes = {

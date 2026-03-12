@@ -10,12 +10,12 @@ import {
   SUBSCRIPTION_REDIRECTION_URLS,
   SUBSCRIPTION_WITH_BILLING_FREQUENCY,
   TALK_TO_SALES_URL,
-} from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { Button } from "@plane/propel/button";
-import type { TBillingFrequency } from "@plane/types";
-import { EProductSubscriptionEnum } from "@plane/types";
-import { getSubscriptionName } from "@plane/utils";
+} from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { Button } from "@jet/propel/button";
+import type { TBillingFrequency } from "@jet/types";
+import { EProductSubscriptionEnum } from "@jet/types";
+import { getSubscriptionName } from "@jet/utils";
 // components
 import { DiscountInfo } from "@/components/license/modal/card/discount-info";
 import type { TPlanDetail } from "@/constants/plans";

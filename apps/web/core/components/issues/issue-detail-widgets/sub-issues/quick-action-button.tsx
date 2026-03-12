@@ -7,11 +7,11 @@
 import React from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { WORK_ITEM_TRACKER_EVENTS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { PlusIcon, WorkItemsIcon } from "@plane/propel/icons";
-import type { TIssue, TIssueServiceType } from "@plane/types";
-import { CustomMenu } from "@plane/ui";
+import { WORK_ITEM_TRACKER_EVENTS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { PlusIcon, WorkItemsIcon } from "@jet/propel/icons";
+import type { TIssue, TIssueServiceType } from "@jet/types";
+import { CustomMenu } from "@jet/ui";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 

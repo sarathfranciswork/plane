@@ -5,7 +5,7 @@
  */
 
 import type { FC } from "react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@jet/i18n";
 type TEstimateTextInputProps = {
   value?: string;
   handleEstimateInputValue: (value: string) => void;

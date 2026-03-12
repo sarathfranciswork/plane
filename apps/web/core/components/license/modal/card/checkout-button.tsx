@@ -6,9 +6,9 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { Button } from "@plane/propel/button";
-import type { EProductSubscriptionEnum, IPaymentProduct, TSubscriptionPrice } from "@plane/types";
-import { Loader } from "@plane/ui";
+import { Button } from "@jet/propel/button";
+import type { EProductSubscriptionEnum, IPaymentProduct, TSubscriptionPrice } from "@jet/types";
+import { Loader } from "@jet/ui";
 // local imports
 import { DiscountInfo } from "./discount-info";
 

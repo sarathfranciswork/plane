@@ -5,7 +5,7 @@
  */
 
 import type { FC } from "react";
-import type { TIssueActivityComment } from "@plane/types";
+import type { TIssueActivityComment } from "@jet/types";
 
 type TIssueActivityWorklog = {
   workspaceSlug: string;

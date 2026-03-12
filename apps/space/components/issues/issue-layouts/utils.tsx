@@ -6,17 +6,17 @@
 
 import { isNil } from "lodash-es";
 // types
-import { EIconSize, ISSUE_PRIORITIES } from "@plane/constants";
-import { CycleGroupIcon, CycleIcon, ModuleIcon, PriorityIcon, StateGroupIcon } from "@plane/propel/icons";
+import { EIconSize, ISSUE_PRIORITIES } from "@jet/constants";
+import { CycleGroupIcon, CycleIcon, ModuleIcon, PriorityIcon, StateGroupIcon } from "@jet/propel/icons";
 import type {
   GroupByColumnTypes,
   IGroupByColumn,
   TCycleGroups,
   IIssueDisplayProperties,
   TGroupedIssues,
-} from "@plane/types";
+} from "@jet/types";
 // ui
-import { Avatar } from "@plane/ui";
+import { Avatar } from "@jet/ui";
 // components
 // constants
 // stores

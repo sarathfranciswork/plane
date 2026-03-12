@@ -7,9 +7,9 @@
 import { observer } from "mobx-react";
 import { PanelRight } from "lucide-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { Tooltip } from "@plane/propel/tooltip";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import { Tooltip } from "@jet/propel/tooltip";
+import { cn } from "@jet/utils";
 // components
 import { PageToolbar } from "@/components/pages/editor/toolbar";
 // hooks

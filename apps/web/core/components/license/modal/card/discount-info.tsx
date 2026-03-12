@@ -6,9 +6,9 @@
 
 import { useTheme } from "next-themes";
 // plane imports
-import type { TBillingFrequency } from "@plane/types";
-import { EProductSubscriptionEnum } from "@plane/types";
-import { cn } from "@plane/utils";
+import type { TBillingFrequency } from "@jet/types";
+import { EProductSubscriptionEnum } from "@jet/types";
+import { cn } from "@jet/utils";
 
 import ScribbleBlack from "@/app/assets/scribble/scribble-black.svg?url";
 import ScribbleWhite from "@/app/assets/scribble/scribble-white.svg?url";

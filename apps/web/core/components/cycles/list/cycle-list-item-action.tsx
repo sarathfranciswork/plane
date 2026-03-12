@@ -11,15 +11,15 @@ import { useParams, usePathname, useSearchParams } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { Eye, ArrowRight, CalendarDays } from "lucide-react";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel, IS_FAVORITE_MENU_OPEN } from "@plane/constants";
-import { useLocalStorage } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
-import { TransferIcon, WorkItemsIcon, MembersPropertyIcon } from "@plane/propel/icons";
-import { setPromiseToast } from "@plane/propel/toast";
-import { Tooltip } from "@plane/propel/tooltip";
-import type { ICycle, TCycleGroups } from "@plane/types";
-import { Avatar, AvatarGroup, FavoriteStar } from "@plane/ui";
-import { getDate, getFileURL, generateQueryParams } from "@plane/utils";
+import { EUserPermissions, EUserPermissionsLevel, IS_FAVORITE_MENU_OPEN } from "@jet/constants";
+import { useLocalStorage } from "@jet/hooks";
+import { useTranslation } from "@jet/i18n";
+import { TransferIcon, WorkItemsIcon, MembersPropertyIcon } from "@jet/propel/icons";
+import { setPromiseToast } from "@jet/propel/toast";
+import { Tooltip } from "@jet/propel/tooltip";
+import type { ICycle, TCycleGroups } from "@jet/types";
+import { Avatar, AvatarGroup, FavoriteStar } from "@jet/ui";
+import { getDate, getFileURL, generateQueryParams } from "@jet/utils";
 // components
 import { DateRangeDropdown } from "@/components/dropdowns/date-range";
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";

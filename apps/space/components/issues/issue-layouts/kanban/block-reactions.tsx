@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane utils
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 // components
 import { IssueEmojiReactions } from "@/components/issues/reactions/issue-emoji-reactions";
 import { IssueVotes } from "@/components/issues/reactions/issue-vote-reactions";

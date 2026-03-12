@@ -8,10 +8,10 @@ import type { FC } from "react";
 import { useRef } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
-import { Logo } from "@plane/propel/emoji-icon-picker";
-import { ViewsIcon } from "@plane/propel/icons";
+import { Logo } from "@jet/propel/emoji-icon-picker";
+import { ViewsIcon } from "@jet/propel/icons";
 // types
-import type { IProjectView } from "@plane/types";
+import type { IProjectView } from "@jet/types";
 // components
 import { ListItem } from "@/components/core/list";
 // hooks

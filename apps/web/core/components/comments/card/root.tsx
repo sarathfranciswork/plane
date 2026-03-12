@@ -7,8 +7,8 @@
 import { useRef, useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import type { EditorRefApi } from "@plane/editor";
-import type { TIssueComment, TCommentsOperations } from "@plane/types";
+import type { EditorRefApi } from "@jet/editor";
+import type { TIssueComment, TCommentsOperations } from "@jet/types";
 // plane web imports
 import { CommentBlock, CommentCardDisplay } from "@/plane-web/components/comments";
 // local imports

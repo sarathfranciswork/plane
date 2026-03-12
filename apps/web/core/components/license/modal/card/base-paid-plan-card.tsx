@@ -10,8 +10,8 @@ import { CheckCircle } from "lucide-react";
 import { Tab } from "@headlessui/react";
 // plane imports
 // helpers
-import type { EProductSubscriptionEnum, TBillingFrequency, TSubscriptionPrice } from "@plane/types";
-import { cn, getBaseSubscriptionName, getSubscriptionName } from "@plane/utils";
+import type { EProductSubscriptionEnum, TBillingFrequency, TSubscriptionPrice } from "@jet/types";
+import { cn, getBaseSubscriptionName, getSubscriptionName } from "@jet/utils";
 
 export type TBasePaidPlanCardProps = {
   planVariant: EProductSubscriptionEnum;

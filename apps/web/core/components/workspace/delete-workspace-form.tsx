@@ -8,12 +8,12 @@ import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
 import { AlertTriangle } from "lucide-react";
 // Plane Imports
-import { useTranslation } from "@plane/i18n";
-import { Button } from "@plane/propel/button";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import type { IWorkspace } from "@plane/types";
-import { Input } from "@plane/ui";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import { Button } from "@jet/propel/button";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import type { IWorkspace } from "@jet/types";
+import { Input } from "@jet/ui";
+import { cn } from "@jet/utils";
 // hooks
 import { useWorkspace } from "@/hooks/store/use-workspace";
 import { useUserSettings } from "@/hooks/store/user";

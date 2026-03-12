@@ -6,8 +6,8 @@
 
 import { observer } from "mobx-react";
 // plane types
-import type { IProjectView } from "@plane/types";
-import { Spinner } from "@plane/ui";
+import type { IProjectView } from "@jet/types";
+import { Spinner } from "@jet/ui";
 // components
 import type { TPowerKContext } from "@/components/power-k/core/types";
 // hooks

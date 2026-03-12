@@ -8,11 +8,11 @@ import { useMemo, useState } from "react";
 import { observer } from "mobx-react";
 import { useForm } from "react-hook-form";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { Button } from "@plane/propel/button";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import type { IUserTheme } from "@plane/types";
-import { applyCustomTheme } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import { Button } from "@jet/propel/button";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import type { IUserTheme } from "@jet/types";
+import { applyCustomTheme } from "@jet/utils";
 // components
 import { ProfileSettingsHeading } from "@/components/settings/profile/heading";
 // hooks

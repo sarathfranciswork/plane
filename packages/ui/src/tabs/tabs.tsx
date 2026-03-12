@@ -8,7 +8,7 @@ import { Tab } from "@headlessui/react";
 import type { FC } from "react";
 import React, { Fragment, useEffect, useState } from "react";
 // helpers
-import { useLocalStorage } from "@plane/hooks";
+import { useLocalStorage } from "@jet/hooks";
 import { cn } from "../utils";
 // types
 import type { TabListItem } from "./tab-list";

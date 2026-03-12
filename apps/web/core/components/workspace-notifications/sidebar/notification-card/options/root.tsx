@@ -7,7 +7,7 @@
 import type { Dispatch, SetStateAction } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 // hooks
 import { useNotification } from "@/hooks/store/notifications/use-notification";
 // local imports

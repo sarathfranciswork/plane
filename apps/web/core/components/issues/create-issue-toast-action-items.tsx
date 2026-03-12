@@ -7,7 +7,7 @@
 import type { FC } from "react";
 import React, { useState } from "react";
 import { observer } from "mobx-react";
-import { copyUrlToClipboard, generateWorkItemLink } from "@plane/utils";
+import { copyUrlToClipboard, generateWorkItemLink } from "@jet/utils";
 // plane imports
 // helpers
 // hooks

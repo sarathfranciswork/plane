@@ -7,10 +7,10 @@
 import React, { useEffect, useState } from "react";
 import { CircleCheck, XCircle } from "lucide-react";
 // plane imports
-import { API_BASE_URL } from "@plane/constants";
-import { Button } from "@plane/propel/button";
-import { AuthService } from "@plane/services";
-import { Input, Spinner } from "@plane/ui";
+import { API_BASE_URL } from "@jet/constants";
+import { Button } from "@jet/propel/button";
+import { AuthService } from "@jet/services";
+import { Input, Spinner } from "@jet/ui";
 // hooks
 import useTimer from "@/hooks/use-timer";
 // types

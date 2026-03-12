@@ -6,11 +6,11 @@
 
 import type { FC } from "react";
 import { observer } from "mobx-react";
-import { ISSUE_PRIORITIES } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { PriorityIcon, CloseIcon } from "@plane/propel/icons";
-import type { TIssuePriorities } from "@plane/types";
-import { Tag } from "@plane/ui";
+import { ISSUE_PRIORITIES } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { PriorityIcon, CloseIcon } from "@jet/propel/icons";
+import type { TIssuePriorities } from "@jet/types";
+import { Tag } from "@jet/ui";
 // hooks
 import { useProjectInbox } from "@/hooks/store/use-project-inbox";
 

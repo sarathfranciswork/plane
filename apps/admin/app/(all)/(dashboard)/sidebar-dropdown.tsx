@@ -10,10 +10,10 @@ import { useTheme as useNextTheme } from "next-themes";
 import { LogOut, UserCog2, Palette } from "lucide-react";
 import { Menu, Transition } from "@headlessui/react";
 // plane internal packages
-import { API_BASE_URL } from "@plane/constants";
-import { AuthService } from "@plane/services";
-import { Avatar } from "@plane/ui";
-import { getFileURL, cn } from "@plane/utils";
+import { API_BASE_URL } from "@jet/constants";
+import { AuthService } from "@jet/services";
+import { Avatar } from "@jet/ui";
+import { getFileURL, cn } from "@jet/utils";
 // hooks
 import { useTheme, useUser } from "@/hooks/store";
 

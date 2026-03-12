@@ -8,10 +8,10 @@ import type { FC } from "react";
 import { useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import type { TIssue, TIssueServiceType } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
-import { Collapsible } from "@plane/ui";
+import { useTranslation } from "@jet/i18n";
+import type { TIssue, TIssueServiceType } from "@jet/types";
+import { EIssueServiceType } from "@jet/types";
+import { Collapsible } from "@jet/ui";
 // components
 import { CreateUpdateIssueModal } from "@/components/issues/issue-modal/modal";
 // hooks

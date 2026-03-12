@@ -8,8 +8,8 @@ import type { FC } from "react";
 import { observer } from "mobx-react";
 // plane types
 // plane ui
-import { useTranslation } from "@plane/i18n";
-import { EModalWidth, ModalCore } from "@plane/ui";
+import { useTranslation } from "@jet/i18n";
+import { EModalWidth, ModalCore } from "@jet/ui";
 import { WidgetList } from "./widget-list";
 
 export type TProps = {

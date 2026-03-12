@@ -7,13 +7,13 @@
 import type { FC } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
-import { GOD_MODE_URL } from "@plane/constants";
-import { Button } from "@plane/propel/button";
-import { PlaneLockup } from "@plane/propel/icons";
+import { GOD_MODE_URL } from "@jet/constants";
+import { Button } from "@jet/propel/button";
+import { JetLockup } from "@jet/propel/icons";
 // assets
 import PlaneBackgroundPatternDark from "@/app/assets/auth/background-pattern-dark.svg?url";
 import PlaneBackgroundPattern from "@/app/assets/auth/background-pattern.svg?url";
-import PlaneTakeOffImage from "@/app/assets/plane-takeoff.png?url";
+import PlaneTakeOffImage from "@/app/assets/jet-takeoff.png?url";
 
 export function InstanceNotReady() {
   const { resolvedTheme } = useTheme();
@@ -25,7 +25,7 @@ export function InstanceNotReady() {
         <div className="z-50 container mx-auto flex h-[110px] flex-shrink-0 items-center justify-between gap-5 px-5 lg:px-0">
           <div className="flex items-center gap-x-2 py-10">
             <Link href={`/`}>
-              <PlaneLockup className="h-7 w-auto text-primary" />
+              <JetLockup className="h-7 w-auto text-primary" />
             </Link>
           </div>
         </div>

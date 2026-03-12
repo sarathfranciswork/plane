@@ -7,12 +7,12 @@
 import { observer } from "mobx-react";
 import { usePathname } from "next/navigation";
 // i18n
-import { EUserPermissions, EUserPermissionsLevel, PROJECT_TRACKER_ELEMENTS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissions, EUserPermissionsLevel, PROJECT_TRACKER_ELEMENTS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
 // ui
-import { Button } from "@plane/propel/button";
-import { ProjectIcon } from "@plane/propel/icons";
-import { Breadcrumbs, Header } from "@plane/ui";
+import { Button } from "@jet/propel/button";
+import { ProjectIcon } from "@jet/propel/icons";
+import { Breadcrumbs, Header } from "@jet/ui";
 // components
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";
 // hooks

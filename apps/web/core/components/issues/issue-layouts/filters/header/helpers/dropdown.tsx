@@ -10,8 +10,8 @@ import { usePopper } from "react-popper";
 // headless ui
 import { Popover, Transition } from "@headlessui/react";
 // ui
-import { Button } from "@plane/propel/button";
-import { ChevronUpIcon } from "@plane/propel/icons";
+import { Button } from "@jet/propel/button";
+import { ChevronUpIcon } from "@jet/propel/icons";
 
 type Props = {
   children: React.ReactNode;

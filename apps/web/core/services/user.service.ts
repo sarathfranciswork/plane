@@ -5,7 +5,7 @@
  */
 
 // services
-import { API_BASE_URL } from "@plane/constants";
+import { API_BASE_URL } from "@jet/constants";
 import type {
   TIssue,
   IUser,
@@ -18,7 +18,7 @@ import type {
   TIssuesResponse,
   TUserProfile,
   IEmailCheckResponse,
-} from "@plane/types";
+} from "@jet/types";
 import { APIService } from "@/services/api.service";
 // types
 // helpers

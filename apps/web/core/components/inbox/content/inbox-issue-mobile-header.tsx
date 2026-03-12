@@ -7,10 +7,10 @@
 import React from "react";
 import { observer } from "mobx-react";
 import { CircleCheck, CircleX, Clock, FileStack, PanelLeft, MoveRight } from "lucide-react";
-import { LinkIcon, NewTabIcon, TrashIcon, ChevronDownIcon, ChevronUpIcon } from "@plane/propel/icons";
-import type { TNameDescriptionLoader } from "@plane/types";
-import { Header, CustomMenu, EHeaderVariant } from "@plane/ui";
-import { cn, findHowManyDaysLeft, generateWorkItemLink } from "@plane/utils";
+import { LinkIcon, NewTabIcon, TrashIcon, ChevronDownIcon, ChevronUpIcon } from "@jet/propel/icons";
+import type { TNameDescriptionLoader } from "@jet/types";
+import { Header, CustomMenu, EHeaderVariant } from "@jet/ui";
+import { cn, findHowManyDaysLeft, generateWorkItemLink } from "@jet/utils";
 // components
 import { NameDescriptionUpdateStatus } from "@/components/issues/issue-update-status";
 // hooks

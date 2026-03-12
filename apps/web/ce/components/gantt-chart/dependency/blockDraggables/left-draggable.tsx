@@ -5,7 +5,7 @@
  */
 
 import type { RefObject } from "react";
-import type { IGanttBlock } from "@plane/types";
+import type { IGanttBlock } from "@jet/types";
 
 type LeftDependencyDraggableProps = {
   block: IGanttBlock;

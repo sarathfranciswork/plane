@@ -5,9 +5,9 @@
  */
 
 import React, { useState, useCallback, useMemo } from "react";
-import { LockIcon, ChevronDownIcon } from "@plane/propel/icons";
-import { PasswordInput, PasswordStrengthIndicator } from "@plane/ui";
-import { cn } from "@plane/utils";
+import { LockIcon, ChevronDownIcon } from "@jet/propel/icons";
+import { PasswordInput, PasswordStrengthIndicator } from "@jet/ui";
+import { cn } from "@jet/utils";
 
 interface PasswordState {
   password: string;

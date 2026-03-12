@@ -6,8 +6,8 @@
 
 import { useState } from "react";
 import { observer } from "mobx-react";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import type { IState, TStateOperationsCallbacks } from "@plane/types";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import type { IState, TStateOperationsCallbacks } from "@jet/types";
 // components
 import { StateForm } from "@/components/project-states";
 

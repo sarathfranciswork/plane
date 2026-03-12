@@ -14,10 +14,10 @@ import {
   SUBSCRIPTION_REDIRECTION_URLS,
   SUBSCRIPTION_WEBPAGE_URLS,
   TALK_TO_SALES_URL,
-} from "@plane/constants";
-import { EProductSubscriptionEnum } from "@plane/types";
-import { EModalWidth, ModalCore } from "@plane/ui";
-import { cn } from "@plane/utils";
+} from "@jet/constants";
+import { EProductSubscriptionEnum } from "@jet/types";
+import { EModalWidth, ModalCore } from "@jet/ui";
+import { cn } from "@jet/utils";
 // components
 import { FreePlanCard, PlanUpgradeCard } from "@/components/license";
 import type { TCheckoutParams } from "@/components/license/modal/card/checkout-button";

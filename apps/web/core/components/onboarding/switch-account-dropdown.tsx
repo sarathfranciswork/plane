@@ -9,7 +9,7 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { Menu, Transition } from "@headlessui/react";
 // ui
-import { cn, getFileURL } from "@plane/utils";
+import { cn, getFileURL } from "@jet/utils";
 // helpers
 // hooks
 import { useUser } from "@/hooks/store/user";

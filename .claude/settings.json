@@ -1,0 +1,55 @@
+{
+  "model": "claude-opus-4-6",
+  "teammateMode": "in-process",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if echo \"$FILEPATH\" | grep -qE '\\.(ts|tsx|js|jsx|json|css|md)$'; then npx oxfmt \"$FILEPATH\" 2>/dev/null || true; fi",
+            "timeout": 10000
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/verify-tests.sh 2>/dev/null || true",
+            "timeout": 120000
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git -C /home/cvsilab/projects/plane pull origin preview 2>/dev/null || true",
+            "timeout": 15000
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/protect-files.sh \"$FILEPATH\" 2>/dev/null || true",
+            "timeout": 5000
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "vtsls@claude-code-lsps": true
+  }
+}

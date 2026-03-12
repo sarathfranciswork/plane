@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import type { TEditorAsset } from "@plane/editor";
+import type { TEditorAsset } from "@jet/editor";
 // store
 import type { TPageInstance } from "@/store/pages/base-page";
 

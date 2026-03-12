@@ -7,11 +7,11 @@
 import React from "react";
 import { observer } from "mobx-react";
 // plane constants
-import { ISSUE_DISPLAY_PROPERTIES } from "@plane/constants";
+import { ISSUE_DISPLAY_PROPERTIES } from "@jet/constants";
 // plane i18n
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@jet/i18n";
 // types
-import type { IIssueDisplayProperties } from "@plane/types";
+import type { IIssueDisplayProperties } from "@jet/types";
 // components
 import { FilterHeader } from "../helpers/filter-header";
 

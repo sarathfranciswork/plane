@@ -5,7 +5,7 @@
  */
 
 import React from "react";
-import { Button } from "@plane/propel/button";
+import { Button } from "@jet/propel/button";
 
 type Props = {
   title: string;

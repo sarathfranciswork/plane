@@ -7,15 +7,15 @@
 import { useRef, useState } from "react";
 import { observer } from "mobx-react";
 // plane hooks
-import { useOutsideClickDetector } from "@plane/hooks";
+import { useOutsideClickDetector } from "@jet/hooks";
 // i18n
-import { useTranslation } from "@plane/i18n";
-import { SearchIcon, CloseIcon } from "@plane/propel/icons";
+import { useTranslation } from "@jet/i18n";
+import { SearchIcon, CloseIcon } from "@jet/propel/icons";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 // hooks
 import { useProjectFilter } from "@/hooks/store/use-project-filter";
-import { IconButton } from "@plane/propel/icon-button";
+import { IconButton } from "@jet/propel/icon-button";
 
 export const ProjectSearch = observer(function ProjectSearch() {
   // i18n

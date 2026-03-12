@@ -5,7 +5,7 @@
  */
 
 import useSWR from "swr";
-import type { TTimezoneObject } from "@plane/types";
+import type { TTimezoneObject } from "@jet/types";
 // services
 import timezoneService from "@/services/timezone.service";
 

@@ -10,16 +10,16 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { FormProvider, useForm } from "react-hook-form";
 // editor
-import { ETabIndices, DEFAULT_WORK_ITEM_FORM_VALUES } from "@plane/constants";
-import type { EditorRefApi } from "@plane/editor";
+import { ETabIndices, DEFAULT_WORK_ITEM_FORM_VALUES } from "@jet/constants";
+import type { EditorRefApi } from "@jet/editor";
 // i18n
-import { useTranslation } from "@plane/i18n";
-import { Button } from "@plane/propel/button";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import type { TIssue, TWorkspaceDraftIssue } from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
+import { useTranslation } from "@jet/i18n";
+import { Button } from "@jet/propel/button";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import type { TIssue, TWorkspaceDraftIssue } from "@jet/types";
+import { EIssuesStoreType } from "@jet/types";
 // hooks
-import { ToggleSwitch } from "@plane/ui";
+import { ToggleSwitch } from "@jet/ui";
 import {
   convertWorkItemDataToSearchResponse,
   getUpdateFormDataForReset,
@@ -27,7 +27,7 @@ import {
   getTextContent,
   getChangedIssuefields,
   getTabIndex,
-} from "@plane/utils";
+} from "@jet/utils";
 // components
 import {
   IssueDefaultProperties,

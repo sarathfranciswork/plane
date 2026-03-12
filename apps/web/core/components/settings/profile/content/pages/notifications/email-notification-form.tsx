@@ -8,10 +8,10 @@ import { useEffect } from "react";
 import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import type { IUserEmailNotificationSettings } from "@plane/types";
-import { ToggleSwitch } from "@plane/ui";
+import { useTranslation } from "@jet/i18n";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import type { IUserEmailNotificationSettings } from "@jet/types";
+import { ToggleSwitch } from "@jet/ui";
 // components
 import { SettingsControlItem } from "@/components/settings/control-item";
 // services

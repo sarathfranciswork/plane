@@ -6,8 +6,8 @@
 
 import type { FC } from "react";
 // plane types
-import { useTranslation } from "@plane/i18n";
-import type { IUser } from "@plane/types";
+import { useTranslation } from "@jet/i18n";
+import type { IUser } from "@jet/types";
 // plane ui
 // hooks
 import { useCurrentTime } from "@/hooks/use-current-time";

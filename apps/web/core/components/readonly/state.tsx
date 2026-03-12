@@ -7,10 +7,10 @@
 import { useEffect, useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { StateGroupIcon } from "@plane/propel/icons";
-import { Loader } from "@plane/ui";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import { StateGroupIcon } from "@jet/propel/icons";
+import { Loader } from "@jet/ui";
+import { cn } from "@jet/utils";
 // hooks
 import { useProjectState } from "@/hooks/store/use-project-state";
 

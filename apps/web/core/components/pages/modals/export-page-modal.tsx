@@ -10,11 +10,11 @@ import { pdf } from "@react-pdf/renderer";
 import { Controller, useForm } from "react-hook-form";
 import { useParams } from "react-router";
 // plane editor
-import type { EditorRefApi } from "@plane/editor";
+import type { EditorRefApi } from "@jet/editor";
 // plane ui
-import { Button } from "@plane/propel/button";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import { CustomSelect, EModalPosition, EModalWidth, ModalCore } from "@plane/ui";
+import { Button } from "@jet/propel/button";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import { CustomSelect, EModalPosition, EModalWidth, ModalCore } from "@jet/ui";
 // components
 import { PDFDocument } from "@/components/editor/pdf";
 // hooks

@@ -4,8 +4,8 @@
  * See the LICENSE file for details.
  */
 
-import { API_BASE_URL } from "@plane/constants";
-import type { IWebhook } from "@plane/types";
+import { API_BASE_URL } from "@jet/constants";
+import type { IWebhook } from "@jet/types";
 import { APIService } from "../api.service";
 
 /**

@@ -8,9 +8,9 @@ import { observer } from "mobx-react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 // plane imports
-import { PROJECT_TRACKER_ELEMENTS } from "@plane/constants";
-import { Button, getButtonStyling } from "@plane/propel/button";
-import { cn } from "@plane/utils";
+import { PROJECT_TRACKER_ELEMENTS } from "@jet/constants";
+import { Button, getButtonStyling } from "@jet/propel/button";
+import { cn } from "@jet/utils";
 // assets
 import ProjectDarkEmptyState from "@/app/assets/empty-state/project-settings/no-projects-dark.png?url";
 import ProjectLightEmptyState from "@/app/assets/empty-state/project-settings/no-projects-light.png?url";

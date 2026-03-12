@@ -6,7 +6,7 @@
 
 import type { FC } from "react";
 
-import type { TEstimatePointsObject, TEstimateSystemKeys, TEstimateTypeErrorObject } from "@plane/types";
+import type { TEstimatePointsObject, TEstimateSystemKeys, TEstimateTypeErrorObject } from "@jet/types";
 
 export type TEstimatePointDelete = {
   workspaceSlug: string;

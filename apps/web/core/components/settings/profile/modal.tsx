@@ -8,8 +8,8 @@ import { useCallback } from "react";
 import { X } from "lucide-react";
 import { observer } from "mobx-react";
 // plane imports
-import { IconButton } from "@plane/propel/icon-button";
-import { EModalPosition, EModalWidth, ModalCore } from "@plane/ui";
+import { IconButton } from "@jet/propel/icon-button";
+import { EModalPosition, EModalWidth, ModalCore } from "@jet/ui";
 // hooks
 import { useCommandPalette } from "@/hooks/store/use-command-palette";
 // local imports

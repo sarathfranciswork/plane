@@ -6,11 +6,11 @@
 
 import { ArrowDownWideNarrow, ArrowUpWideNarrow, Check } from "lucide-react";
 // plane imports
-import { getButtonStyling } from "@plane/propel/button";
+import { getButtonStyling } from "@jet/propel/button";
 // types
-import { CheckIcon, ChevronDownIcon } from "@plane/propel/icons";
-import type { TPageFiltersSortBy, TPageFiltersSortKey } from "@plane/types";
-import { CustomMenu } from "@plane/ui";
+import { CheckIcon, ChevronDownIcon } from "@jet/propel/icons";
+import type { TPageFiltersSortBy, TPageFiltersSortKey } from "@jet/types";
+import { CustomMenu } from "@jet/ui";
 
 type Props = {
   onChange: (value: { key?: TPageFiltersSortKey; order?: TPageFiltersSortBy }) => void;

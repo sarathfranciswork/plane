@@ -6,9 +6,9 @@
 
 import { useRouter } from "next/navigation";
 // plane types
-import { Logo } from "@plane/propel/emoji-icon-picker";
-import type { TActivityEntityData, TProjectEntityData } from "@plane/types";
-import { calculateTimeAgo } from "@plane/utils";
+import { Logo } from "@jet/propel/emoji-icon-picker";
+import type { TActivityEntityData, TProjectEntityData } from "@jet/types";
+import { calculateTimeAgo } from "@jet/utils";
 // components
 import { ListItem } from "@/components/core/list";
 import { MemberDropdown } from "@/components/dropdowns/member/dropdown";

@@ -8,14 +8,14 @@ import type { Dispatch, SetStateAction } from "react";
 import { useEffect, useState } from "react";
 import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
-import { ORGANIZATION_SIZE, RESTRICTED_URLS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { Button } from "@plane/propel/button";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import type { IWorkspace } from "@plane/types";
+import { ORGANIZATION_SIZE, RESTRICTED_URLS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { Button } from "@jet/propel/button";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import type { IWorkspace } from "@jet/types";
 // ui
-import { CustomSelect, Input } from "@plane/ui";
-import { validateWorkspaceName, validateSlug } from "@plane/utils";
+import { CustomSelect, Input } from "@jet/ui";
+import { validateWorkspaceName, validateSlug } from "@jet/utils";
 // hooks
 import { useWorkspace } from "@/hooks/store/use-workspace";
 import { useAppRouter } from "@/hooks/use-app-router";

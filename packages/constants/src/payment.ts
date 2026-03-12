@@ -4,8 +4,8 @@
  * See the LICENSE file for details.
  */
 
-import type { IPaymentProduct, TBillingFrequency, TProductBillingFrequency } from "@plane/types";
-import { EProductSubscriptionEnum } from "@plane/types";
+import type { IPaymentProduct, TBillingFrequency, TProductBillingFrequency } from "@jet/types";
+import { EProductSubscriptionEnum } from "@jet/types";
 
 /**
  * Default billing frequency for each product subscription type

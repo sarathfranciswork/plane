@@ -4,7 +4,7 @@
  * See the LICENSE file for details.
  */
 
-import { Loader } from "@plane/ui";
+import { Loader } from "@jet/ui";
 
 export function FilterItemLoader() {
   return (

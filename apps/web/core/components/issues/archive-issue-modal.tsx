@@ -6,12 +6,12 @@
 
 import { useState } from "react";
 // i18n
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@jet/i18n";
 // types
-import { Button } from "@plane/propel/button";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import type { TDeDupeIssue, TIssue } from "@plane/types";
-import { EModalPosition, EModalWidth, ModalCore } from "@plane/ui";
+import { Button } from "@jet/propel/button";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import type { TDeDupeIssue, TIssue } from "@jet/types";
+import { EModalPosition, EModalWidth, ModalCore } from "@jet/ui";
 // hooks
 import { useIssues } from "@/hooks/store/use-issues";
 import { useProject } from "@/hooks/store/use-project";

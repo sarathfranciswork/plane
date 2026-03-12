@@ -6,9 +6,9 @@
 
 import type { FC } from "react";
 import { observer } from "mobx-react";
-import { EIconSize } from "@plane/constants";
-import { StateGroupIcon, CloseIcon } from "@plane/propel/icons";
-import { Tag } from "@plane/ui";
+import { EIconSize } from "@jet/constants";
+import { StateGroupIcon, CloseIcon } from "@jet/propel/icons";
+import { Tag } from "@jet/ui";
 // hooks
 import { useProjectInbox } from "@/hooks/store/use-project-inbox";
 import { useProjectState } from "@/hooks/store/use-project-state";

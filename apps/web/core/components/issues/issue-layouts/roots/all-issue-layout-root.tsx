@@ -9,10 +9,10 @@ import { observer } from "mobx-react";
 import { useParams, useSearchParams } from "next/navigation";
 import useSWR from "swr";
 // plane imports
-import { GLOBAL_VIEW_TRACKER_ELEMENTS, ISSUE_DISPLAY_FILTERS_BY_PAGE } from "@plane/constants";
-import { EmptyStateDetailed } from "@plane/propel/empty-state";
-import type { EIssueLayoutTypes } from "@plane/types";
-import { EIssuesStoreType, STATIC_VIEW_TYPES } from "@plane/types";
+import { GLOBAL_VIEW_TRACKER_ELEMENTS, ISSUE_DISPLAY_FILTERS_BY_PAGE } from "@jet/constants";
+import { EmptyStateDetailed } from "@jet/propel/empty-state";
+import type { EIssueLayoutTypes } from "@jet/types";
+import { EIssuesStoreType, STATIC_VIEW_TYPES } from "@jet/types";
 // assets
 import emptyView from "@/app/assets/empty-state/view.svg?url";
 // components

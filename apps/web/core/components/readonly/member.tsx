@@ -7,8 +7,8 @@
 import { observer } from "mobx-react";
 import type { LucideIcon } from "lucide-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import { cn } from "@jet/utils";
 // components
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";
 // hooks

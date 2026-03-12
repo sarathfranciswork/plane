@@ -6,8 +6,8 @@
 
 import { action, makeObservable, runInAction } from "mobx";
 // plane imports
-import { SitesIssueService } from "@plane/services";
-import type { IssuePaginationOptions, TLoader } from "@plane/types";
+import { SitesIssueService } from "@jet/services";
+import type { IssuePaginationOptions, TLoader } from "@jet/types";
 // store
 import type { CoreRootStore } from "@/store/root.store";
 // types

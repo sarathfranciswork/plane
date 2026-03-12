@@ -7,15 +7,15 @@
 import { useCallback, useMemo } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { ISSUE_LAYOUT_MAP } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { CheckIcon } from "@plane/propel/icons";
-import { EIssueLayoutTypes } from "@plane/types";
-import { Dropdown } from "@plane/ui";
-import { cn } from "@plane/utils";
+import { ISSUE_LAYOUT_MAP } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { CheckIcon } from "@jet/propel/icons";
+import { EIssueLayoutTypes } from "@jet/types";
+import { Dropdown } from "@jet/ui";
+import { cn } from "@jet/utils";
 // components
 import { IssueLayoutIcon } from "@/components/issues/issue-layouts/layout-icon";
-import { getIconButtonStyling } from "@plane/propel/icon-button";
+import { getIconButtonStyling } from "@jet/propel/icon-button";
 
 type TLayoutDropDown = {
   onChange: (value: EIssueLayoutTypes) => void;

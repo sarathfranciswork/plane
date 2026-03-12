@@ -7,8 +7,8 @@
 import { useEffect, useState } from "react";
 import { observer } from "mobx-react";
 import useSWR from "swr";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import { Loader, ToggleSwitch } from "@plane/ui";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import { Loader, ToggleSwitch } from "@jet/ui";
 // components
 import { PageWrapper } from "@/components/common/page-wrapper";
 // hooks
@@ -63,7 +63,7 @@ const InstanceEmailPage = observer(function InstanceEmailPage(_props: Route.Comp
         title: "Secure emails from your own instance",
         description: (
           <>
-            Plane can send useful emails to you and your users from your own instance without talking to the Internet.
+            Jet can send useful emails to you and your users from your own instance without talking to the Internet.
             <div className="text-13 font-regular text-tertiary">
               Set it up below and please test your settings before you save them.&nbsp;
               <span className="text-danger-primary">Misconfigs can lead to email bounces and errors.</span>

@@ -10,16 +10,16 @@ import { observer } from "mobx-react";
 import { useSearchParams } from "next/navigation";
 import { AlertCircle } from "lucide-react";
 import { Disclosure, Transition } from "@headlessui/react";
-import { EEstimateSystem } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { ChevronUpIcon, ChevronDownIcon } from "@plane/propel/icons";
-import type { TModulePlotType } from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
-import { CustomSelect, Spinner } from "@plane/ui";
+import { EEstimateSystem } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { ChevronUpIcon, ChevronDownIcon } from "@jet/propel/icons";
+import type { TModulePlotType } from "@jet/types";
+import { EIssuesStoreType } from "@jet/types";
+import { CustomSelect, Spinner } from "@jet/ui";
 // components
 // constants
 // helpers
-import { getDate } from "@plane/utils";
+import { getDate } from "@jet/utils";
 import ProgressChart from "@/components/core/sidebar/progress-chart";
 import { ModuleProgressStats } from "@/components/modules";
 // hooks

@@ -6,7 +6,7 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { Loader } from "@plane/ui";
+import { Loader } from "@jet/ui";
 // types
 import type { IIssue } from "@/types/issue";
 // local imports

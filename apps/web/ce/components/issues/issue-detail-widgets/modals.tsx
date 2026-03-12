@@ -6,7 +6,7 @@
 
 import type { FC } from "react";
 // plane types
-import type { TIssueServiceType, TWorkItemWidgets } from "@plane/types";
+import type { TIssueServiceType, TWorkItemWidgets } from "@jet/types";
 
 export type TWorkItemAdditionalWidgetModalsProps = {
   hideWidgets: TWorkItemWidgets[];

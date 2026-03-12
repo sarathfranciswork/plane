@@ -1,5 +1,5 @@
 services:
-  plane-redis:
+  jet-redis:
     image: valkey/valkey:7.2.11-alpine
     restart: unless-stopped
     networks:
@@ -9,7 +9,7 @@ services:
     ports:
       - "6379:6379"
 
-  plane-mq:
+  jet-mq:
     image: rabbitmq:3.13.6-management-alpine
     restart: unless-stopped
     networks:
@@ -23,7 +23,7 @@ services:
       RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD}
       RABBITMQ_DEFAULT_VHOST: ${RABBITMQ_VHOST}
 
-  plane-minio:
+  jet-minio:
     image: minio/minio
     restart: unless-stopped
     networks:
@@ -48,7 +48,7 @@ services:
       - "9000:9000"
       - "9090:9090"
 
-  plane-db:
+  jet-db:
     image: postgres:15.7-alpine
     restart: unless-stopped
     networks:
@@ -135,9 +135,9 @@ services:
     env_file:
       - ./apps/api/.env
     depends_on:
-      - plane-db
-      - plane-redis
-      - plane-mq
+      - jet-db
+      - jet-redis
+      - jet-mq
     ports:
       - "8000:8000"
 
@@ -157,8 +157,8 @@ services:
       - ./apps/api/.env
     depends_on:
       - api
-      - plane-db
-      - plane-redis
+      - jet-db
+      - jet-redis
 
   beat-worker:
     build:
@@ -176,8 +176,8 @@ services:
       - ./apps/api/.env
     depends_on:
       - api
-      - plane-db
-      - plane-redis
+      - jet-db
+      - jet-redis
 
   migrator:
     build:
@@ -194,8 +194,8 @@ services:
     env_file:
       - ./apps/api/.env
     depends_on:
-      - plane-db
-      - plane-redis
+      - jet-db
+      - jet-redis
 
   # proxy:
   #   build:

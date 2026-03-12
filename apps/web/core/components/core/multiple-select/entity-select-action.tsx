@@ -6,9 +6,9 @@
 
 import { observer } from "mobx-react";
 // ui
-import { Checkbox } from "@plane/ui";
+import { Checkbox } from "@jet/ui";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 // hooks
 import type { TSelectionHelper } from "@/hooks/use-multiple-select";
 

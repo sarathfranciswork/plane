@@ -8,10 +8,10 @@ import type { FC } from "react";
 import { useMemo, useState } from "react";
 import { observer } from "mobx-react";
 import { ListFilter } from "lucide-react";
-import { useTranslation } from "@plane/i18n";
-import { SearchIcon, CloseIcon } from "@plane/propel/icons";
-import type { IIssueFilterOptions, IState } from "@plane/types";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import { SearchIcon, CloseIcon } from "@jet/propel/icons";
+import type { IIssueFilterOptions, IState } from "@jet/types";
+import { cn } from "@jet/utils";
 import {
   FilterAssignees,
   FilterDueDate,

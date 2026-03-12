@@ -5,12 +5,12 @@
  */
 
 import { useRouter } from "next/navigation";
-import { Logo } from "@plane/propel/emoji-icon-picker";
-import { PageIcon } from "@plane/propel/icons";
+import { Logo } from "@jet/propel/emoji-icon-picker";
+import { PageIcon } from "@jet/propel/icons";
 // plane import
-import type { TActivityEntityData, TPageEntityData } from "@plane/types";
-import { Avatar } from "@plane/ui";
-import { calculateTimeAgo, getFileURL, getPageName } from "@plane/utils";
+import type { TActivityEntityData, TPageEntityData } from "@jet/types";
+import { Avatar } from "@jet/ui";
+import { calculateTimeAgo, getFileURL, getPageName } from "@jet/utils";
 import { ListItem } from "@/components/core/list";
 // hooks
 import { useMember } from "@/hooks/store/use-member";

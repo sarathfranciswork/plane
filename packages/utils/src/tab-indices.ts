@@ -5,8 +5,8 @@
  */
 
 // plane imports
-import type { ETabIndices } from "@plane/constants";
-import { TAB_INDEX_MAP } from "@plane/constants";
+import type { ETabIndices } from "@jet/constants";
+import { TAB_INDEX_MAP } from "@jet/constants";
 
 export const getTabIndex = (type?: ETabIndices, isMobile: boolean = false) => {
   const getIndex = (key: string) =>

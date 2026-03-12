@@ -20,12 +20,12 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { createRoot } from "react-dom/client";
 // plane types
-import { useTranslation } from "@plane/i18n";
-import type { InstructionType, TWidgetEntityData } from "@plane/types";
+import { useTranslation } from "@jet/i18n";
+import type { InstructionType, TWidgetEntityData } from "@jet/types";
 // plane ui
-import { DropIndicator, ToggleSwitch } from "@plane/ui";
+import { DropIndicator, ToggleSwitch } from "@jet/ui";
 // plane utils
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 // hooks
 import { useHome } from "@/hooks/store/use-home";
 import { HOME_WIDGETS_LIST } from "../../home-dashboard-widgets";

@@ -8,11 +8,11 @@ import type { FC } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import { EIssueFilterType, ISSUE_DISPLAY_FILTERS_BY_PAGE } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
-import { EHeaderVariant, Header } from "@plane/ui";
+import { EIssueFilterType, ISSUE_DISPLAY_FILTERS_BY_PAGE } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import type { IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@jet/types";
+import { EIssuesStoreType } from "@jet/types";
+import { EHeaderVariant, Header } from "@jet/ui";
 // components
 import { ArchiveTabsList } from "@/components/archives";
 import { DisplayFiltersSelection, FiltersDropdown } from "@/components/issues/issue-layouts/filters";

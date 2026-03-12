@@ -7,7 +7,7 @@
 import type { FC } from "react";
 import React from "react";
 // helpers
-import { Button } from "@plane/propel/button";
+import { Button } from "@jet/propel/button";
 
 type Props = {
   icon: React.ReactNode;

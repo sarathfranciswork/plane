@@ -5,7 +5,7 @@
  */
 
 import Link from "next/link";
-import { Tooltip } from "@plane/propel/tooltip";
+import { Tooltip } from "@jet/propel/tooltip";
 
 type Props = {
   label?: string;

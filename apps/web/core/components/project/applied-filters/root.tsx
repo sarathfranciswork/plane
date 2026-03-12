@@ -4,13 +4,13 @@
  * See the LICENSE file for details.
  */
 
-import { useTranslation } from "@plane/i18n";
-import { CloseIcon } from "@plane/propel/icons";
+import { useTranslation } from "@jet/i18n";
+import { CloseIcon } from "@jet/propel/icons";
 // plane imports
-import { Tooltip } from "@plane/propel/tooltip";
-import type { TProjectAppliedDisplayFilterKeys, TProjectFilters } from "@plane/types";
-import { EHeaderVariant, Header, Tag } from "@plane/ui";
-import { replaceUnderscoreIfSnakeCase } from "@plane/utils";
+import { Tooltip } from "@jet/propel/tooltip";
+import type { TProjectAppliedDisplayFilterKeys, TProjectFilters } from "@jet/types";
+import { EHeaderVariant, Header, Tag } from "@jet/ui";
+import { replaceUnderscoreIfSnakeCase } from "@jet/utils";
 // local imports
 import { AppliedAccessFilters } from "./access";
 import { AppliedDateFilters } from "./date";

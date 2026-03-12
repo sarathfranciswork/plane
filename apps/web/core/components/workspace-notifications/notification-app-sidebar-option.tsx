@@ -8,7 +8,7 @@ import type { FC } from "react";
 import { observer } from "mobx-react";
 import useSWR from "swr";
 // plane imports
-import { getNumberCount } from "@plane/utils";
+import { getNumberCount } from "@jet/utils";
 // components
 import { CountChip } from "@/components/common/count-chip";
 // hooks

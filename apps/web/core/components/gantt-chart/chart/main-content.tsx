@@ -14,8 +14,8 @@ import type {
   IBlockUpdateDependencyData,
   IGanttBlock,
   TGanttViews,
-} from "@plane/types";
-import { cn, getDate } from "@plane/utils";
+} from "@jet/types";
+import { cn, getDate } from "@jet/utils";
 // components
 import { MultipleSelectGroup } from "@/components/core/multiple-select";
 import { GanttChartSidebar, MonthChartView, QuarterChartView, WeekChartView } from "@/components/gantt-chart";

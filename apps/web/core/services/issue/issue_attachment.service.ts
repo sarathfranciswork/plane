@@ -5,11 +5,11 @@
  */
 
 import type { AxiosRequestConfig } from "axios";
-import { API_BASE_URL } from "@plane/constants";
+import { API_BASE_URL } from "@jet/constants";
 // plane types
-import { getFileMetaDataForUpload, generateFileUploadPayload } from "@plane/services";
-import type { TIssueAttachment, TIssueAttachmentUploadResponse, TIssueServiceType } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
+import { getFileMetaDataForUpload, generateFileUploadPayload } from "@jet/services";
+import type { TIssueAttachment, TIssueAttachmentUploadResponse, TIssueServiceType } from "@jet/types";
+import { EIssueServiceType } from "@jet/types";
 // services
 import { APIService } from "@/services/api.service";
 import { FileUploadService } from "@/services/file-upload.service";

@@ -4,13 +4,13 @@
  * See the LICENSE file for details.
  */
 
-import { USER_TRACKER_ELEMENTS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { USER_TRACKER_ELEMENTS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
 // ui
-import { getButtonStyling } from "@plane/propel/button";
-import { PlaneLogo } from "@plane/propel/icons";
+import { getButtonStyling } from "@jet/propel/button";
+import { JetLogo } from "@jet/propel/icons";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 
 export function ProductUpdatesFooter() {
   const { t } = useTranslation();
@@ -69,7 +69,7 @@ export function ProductUpdatesFooter() {
         )}
         rel="noreferrer"
       >
-        <PlaneLogo className="h-4 w-auto text-primary" />
+        <JetLogo className="h-4 w-auto text-primary" />
         {t("powered_by_plane_pages")}
       </a>
     </div>

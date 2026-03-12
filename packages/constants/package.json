@@ -1,5 +1,5 @@
 {
-  "name": "@plane/constants",
+  "name": "@jet/constants",
   "version": "1.2.0",
   "private": true,
   "license": "AGPL-3.0",
@@ -22,10 +22,10 @@
     "clean": "rm -rf .turbo && rm -rf .next && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "@plane/types": "workspace:*"
+    "@jet/types": "workspace:*"
   },
   "devDependencies": {
-    "@plane/typescript-config": "workspace:*",
+    "@jet/typescript-config": "workspace:*",
     "@types/node": "catalog:",
     "@types/react": "catalog:",
     "tsdown": "catalog:",

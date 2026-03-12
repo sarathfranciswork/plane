@@ -4,7 +4,7 @@
  * See the LICENSE file for details.
  */
 
-import type { TDeDupeIssue } from "@plane/types";
+import type { TDeDupeIssue } from "@jet/types";
 
 export const useDebouncedDuplicateIssues = (
   workspaceSlug: string | undefined,

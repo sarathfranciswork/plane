@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import type { TDocumentPayload, TDuplicateAssetData, TDuplicateAssetResponse, TEditorAssetType } from "@plane/types";
+import type { TDocumentPayload, TDuplicateAssetData, TDuplicateAssetResponse, TEditorAssetType } from "@jet/types";
 // plane web imports
 import {
   extractAdditionalAssetsFromHTMLContent,

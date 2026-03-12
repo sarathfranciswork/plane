@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2023-present Plane Software, Inc. and contributors
+ * Copyright (c) 2023-present Jet Software, Inc. and contributors
  * SPDX-License-Identifier: AGPL-3.0-only
  * See the LICENSE file for details.
  */
@@ -89,7 +89,7 @@ export default {
       already_have_an_account: "すでにアカウントをお持ちですか？",
       login: "ログイン",
       create_account: "アカウントを作成",
-      new_to_plane: "Planeは初めてですか？",
+      new_to_plane: "Jetは初めてですか？",
       back_to_sign_in: "サインインに戻る",
       resend_in: "{seconds}秒後に再送信",
       sign_in_with_unique_code: "ユニークコードでサインイン",
@@ -409,7 +409,7 @@ export default {
   full_changelog: "完全な変更履歴",
   support: "サポート",
   forum: "Forum",
-  powered_by_plane_pages: "Powered by Plane Pages",
+  powered_by_plane_pages: "Powered by Jet Pages",
   please_select_at_least_one_invitation: "少なくとも1つの招待を選択してください。",
   please_select_at_least_one_invitation_description:
     "ワークスペースに参加するには少なくとも1つの招待を選択してください。",
@@ -571,7 +571,7 @@ export default {
       not_right_now: "今はしない",
       create_project: {
         title: "プロジェクトを作成",
-        description: "Planeのほとんどはプロジェクトから始まります。",
+        description: "Jetのほとんどはプロジェクトから始まります。",
         cta: "始める",
       },
       invite_team: {
@@ -585,7 +585,7 @@ export default {
         cta: "このワークスペースを設定",
       },
       personalize_account: {
-        title: "Planeをあなた好みにカスタマイズ。",
+        title: "Jetをあなた好みにカスタマイズ。",
         description: "プロフィール画像、カラー、その他の設定を選択してください。",
         cta: "今すぐパーソナライズ",
       },
@@ -619,7 +619,7 @@ export default {
       },
     },
     new_at_plane: {
-      title: "Planeの新機能",
+      title: "Jetの新機能",
     },
     quick_tutorial: {
       title: "クイックチュートリアル",
@@ -1272,7 +1272,7 @@ export default {
   },
   workspace_creation: {
     heading: "ワークスペースを作成",
-    subheading: "Planeを使用するには、ワークスペースを作成するか参加する必要があります。",
+    subheading: "Jetを使用するには、ワークスペースを作成するか参加する必要があります。",
     form: {
       name: {
         label: "ワークスペース名を設定",
@@ -1327,11 +1327,11 @@ export default {
       general: {
         title: "プロジェクト、アクティビティ、メトリクスの概要",
         description:
-          "Planeへようこそ。ご利用いただき嬉しく思います。最初のプロジェクトを作成して作業項目を追跡すると、このページは進捗を把握するのに役立つスペースに変わります。管理者はチームの進捗に役立つ項目も表示されます。",
+          "Jetへようこそ。ご利用いただき嬉しく思います。最初のプロジェクトを作成して作業項目を追跡すると、このページは進捗を把握するのに役立つスペースに変わります。管理者はチームの進捗に役立つ項目も表示されます。",
         primary_button: {
           text: "最初のプロジェクトを作成",
           comic: {
-            title: "Planeではすべてがプロジェクトから始まります",
+            title: "Jetではすべてがプロジェクトから始まります",
             description: "プロジェクトは製品のロードマップ、マーケティングキャンペーン、新車の発売などになります。",
           },
         },
@@ -1463,7 +1463,7 @@ export default {
         primary_button: {
           text: "最初のプロジェクトを開始",
           comic: {
-            title: "Planeではすべてがプロジェクトから始まります",
+            title: "Jetではすべてがプロジェクトから始まります",
             description: "プロジェクトは製品のロードマップ、マーケティングキャンペーン、新車の発売などになります。",
           },
         },
@@ -1475,7 +1475,7 @@ export default {
         primary_button: {
           text: "最初のプロジェクトを開始",
           comic: {
-            title: "Planeではすべてがプロジェクトから始まります",
+            title: "Jetではすべてがプロジェクトから始まります",
             description: "プロジェクトは製品のロードマップ、マーケティングキャンペーン、新車の発売などになります。",
           },
         },

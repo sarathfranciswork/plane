@@ -6,12 +6,12 @@
 
 import { ArrowDownWideNarrow } from "lucide-react";
 // plane imports
-import { PROJECT_ORDER_BY_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { getButtonStyling } from "@plane/propel/button";
-import { CheckIcon, ChevronDownIcon } from "@plane/propel/icons";
-import type { TProjectOrderByOptions } from "@plane/types";
-import { CustomMenu } from "@plane/ui";
+import { PROJECT_ORDER_BY_OPTIONS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { getButtonStyling } from "@jet/propel/button";
+import { CheckIcon, ChevronDownIcon } from "@jet/propel/icons";
+import type { TProjectOrderByOptions } from "@jet/types";
+import { CustomMenu } from "@jet/ui";
 
 type Props = {
   onChange: (value: TProjectOrderByOptions) => void;

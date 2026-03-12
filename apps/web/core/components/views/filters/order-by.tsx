@@ -6,12 +6,12 @@
 
 import { ArrowDownWideNarrow, ArrowUpWideNarrow } from "lucide-react";
 // plane imports
-import { VIEW_SORT_BY_OPTIONS, VIEW_SORTING_KEY_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { getButtonStyling } from "@plane/propel/button";
-import { CheckIcon, ChevronDownIcon } from "@plane/propel/icons";
-import type { TViewFiltersSortBy, TViewFiltersSortKey } from "@plane/types";
-import { CustomMenu } from "@plane/ui";
+import { VIEW_SORT_BY_OPTIONS, VIEW_SORTING_KEY_OPTIONS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { getButtonStyling } from "@jet/propel/button";
+import { CheckIcon, ChevronDownIcon } from "@jet/propel/icons";
+import type { TViewFiltersSortBy, TViewFiltersSortKey } from "@jet/types";
+import { CustomMenu } from "@jet/ui";
 
 type Props = {
   onChange: (value: { key?: TViewFiltersSortKey; order?: TViewFiltersSortBy }) => void;

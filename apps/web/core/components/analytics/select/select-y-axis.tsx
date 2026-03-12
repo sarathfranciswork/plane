@@ -6,11 +6,11 @@
 
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
-import { EEstimateSystem } from "@plane/constants";
-import { ProjectIcon } from "@plane/propel/icons";
-import type { ChartYAxisMetric } from "@plane/types";
+import { EEstimateSystem } from "@jet/constants";
+import { ProjectIcon } from "@jet/propel/icons";
+import type { ChartYAxisMetric } from "@jet/types";
 // plane package imports
-import { CustomSelect } from "@plane/ui";
+import { CustomSelect } from "@jet/ui";
 // hooks
 import { useProjectEstimates } from "@/hooks/store/estimates";
 // plane web constants

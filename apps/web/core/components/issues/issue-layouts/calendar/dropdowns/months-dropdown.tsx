@@ -8,11 +8,11 @@ import React, { useState } from "react";
 import { observer } from "mobx-react";
 import { usePopper } from "react-popper";
 import { Popover, Transition } from "@headlessui/react";
-import { ChevronLeftIcon, ChevronRightIcon } from "@plane/propel/icons";
+import { ChevronLeftIcon, ChevronRightIcon } from "@jet/propel/icons";
 //hooks
 // icons
 // constants
-import { getDate } from "@plane/utils";
+import { getDate } from "@jet/utils";
 import { MONTHS_LIST } from "@/constants/calendar";
 import { useCalendarView } from "@/hooks/store/use-calendar-view";
 import type { IProjectEpicsFilter } from "@/plane-web/store/issue/epic";

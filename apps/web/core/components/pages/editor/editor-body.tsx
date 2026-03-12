@@ -7,8 +7,8 @@
 import { useCallback, useEffect, useMemo, useRef } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { LIVE_BASE_PATH, LIVE_BASE_URL } from "@plane/constants";
-import { CollaborativeDocumentEditorWithRef } from "@plane/editor";
+import { LIVE_BASE_PATH, LIVE_BASE_URL } from "@jet/constants";
+import { CollaborativeDocumentEditorWithRef } from "@jet/editor";
 import type {
   CollaborationState,
   EditorRefApi,
@@ -18,11 +18,11 @@ import type {
   TFileHandler,
   TRealtimeConfig,
   TServerHandler,
-} from "@plane/editor";
-import { useTranslation } from "@plane/i18n";
-import type { TSearchEntityRequestPayload, TSearchResponse, TWebhookConnectionQueryParams } from "@plane/types";
-import { ERowVariant, Row } from "@plane/ui";
-import { cn, generateRandomColor, hslToHex } from "@plane/utils";
+} from "@jet/editor";
+import { useTranslation } from "@jet/i18n";
+import type { TSearchEntityRequestPayload, TSearchResponse, TWebhookConnectionQueryParams } from "@jet/types";
+import { ERowVariant, Row } from "@jet/ui";
+import { cn, generateRandomColor, hslToHex } from "@jet/utils";
 // components
 import { EditorMentionsRoot } from "@/components/editor/embeds/mentions";
 // hooks

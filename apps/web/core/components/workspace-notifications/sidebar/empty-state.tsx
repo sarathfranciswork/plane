@@ -6,9 +6,9 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { ENotificationTab } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateCompact } from "@plane/propel/empty-state";
+import { ENotificationTab } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { EmptyStateCompact } from "@jet/propel/empty-state";
 
 type TNotificationEmptyStateProps = {
   currentNotificationTab: ENotificationTab;

@@ -10,10 +10,10 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { GripVertical, X } from "lucide-react";
 // plane imports
-import { WORKSPACE_SIDEBAR_DYNAMIC_NAVIGATION_ITEMS_LINKS, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { Checkbox, EModalPosition, EModalWidth, ModalCore, Sortable } from "@plane/ui";
-import { cn } from "@plane/utils";
+import { WORKSPACE_SIDEBAR_DYNAMIC_NAVIGATION_ITEMS_LINKS, EUserPermissionsLevel } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { Checkbox, EModalPosition, EModalWidth, ModalCore, Sortable } from "@jet/ui";
+import { cn } from "@jet/utils";
 // hooks
 import { useUserPermissions } from "@/hooks/store/user";
 import {

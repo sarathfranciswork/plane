@@ -7,11 +7,11 @@
 import React, { useMemo, useState } from "react";
 import { sortBy } from "lodash-es";
 import { observer } from "mobx-react";
-import { EIconSize } from "@plane/constants";
-import { StateGroupIcon } from "@plane/propel/icons";
-import type { IState } from "@plane/types";
+import { EIconSize } from "@jet/constants";
+import { StateGroupIcon } from "@jet/propel/icons";
+import type { IState } from "@jet/types";
 // components
-import { Loader } from "@plane/ui";
+import { Loader } from "@jet/ui";
 import { FilterHeader, FilterOption } from "@/components/issues/issue-layouts/filters";
 // ui
 // types

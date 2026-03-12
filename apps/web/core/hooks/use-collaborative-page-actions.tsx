@@ -5,10 +5,10 @@
  */
 
 import { useState, useEffect, useCallback, useMemo } from "react";
-import type { EditorRefApi, TDocumentEventsServer } from "@plane/editor";
-import type { TDocumentEventsClient } from "@plane/editor/lib";
-import { DocumentCollaborativeEvents, getServerEventName } from "@plane/editor/lib";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
+import type { EditorRefApi, TDocumentEventsServer } from "@jet/editor";
+import type { TDocumentEventsClient } from "@jet/editor/lib";
+import { DocumentCollaborativeEvents, getServerEventName } from "@jet/editor/lib";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
 // store
 import type { TPageInstance } from "@/store/pages/base-page";
 

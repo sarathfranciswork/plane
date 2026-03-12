@@ -10,12 +10,12 @@ import { useParams } from "next/navigation";
 import useSWR from "swr";
 import { StickyNote as StickyIcon } from "lucide-react";
 // plane hooks
-import { useOutsideClickDetector } from "@plane/hooks";
+import { useOutsideClickDetector } from "@jet/hooks";
 // plane ui
-import { RecentStickyIcon, StickyNoteIcon, PlusIcon, CloseIcon } from "@plane/propel/icons";
-import { Tooltip } from "@plane/propel/tooltip";
+import { RecentStickyIcon, StickyNoteIcon, PlusIcon, CloseIcon } from "@jet/propel/icons";
+import { Tooltip } from "@jet/propel/tooltip";
 // plane utils
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 // hooks
 import { useCommandPalette } from "@/hooks/store/use-command-palette";
 import { useSticky } from "@/hooks/use-stickies";

@@ -5,13 +5,13 @@
  */
 
 import { observer } from "mobx-react";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import type { TContextMenuItem } from "@plane/ui";
-import { CustomMenu } from "@plane/ui";
-import { copyUrlToClipboard, cn } from "@plane/utils";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import type { TContextMenuItem } from "@jet/ui";
+import { CustomMenu } from "@jet/ui";
+import { copyUrlToClipboard, cn } from "@jet/utils";
 import { useLayoutMenuItems } from "@/components/common/quick-actions-helper";
 import { Ellipsis, MoreHorizontal } from "lucide-react";
-import { IconButton } from "@plane/propel/icon-button";
+import { IconButton } from "@jet/propel/icon-button";
 
 type Props = {
   workspaceSlug: string;

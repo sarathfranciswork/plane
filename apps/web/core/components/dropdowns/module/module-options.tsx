@@ -10,10 +10,10 @@ import { observer } from "mobx-react";
 import { usePopper } from "react-popper";
 import { Combobox } from "@headlessui/react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { CheckIcon, SearchIcon, ModuleIcon } from "@plane/propel/icons";
-import type { IModule } from "@plane/types";
-import { cn, sortBySelectedFirst } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import { CheckIcon, SearchIcon, ModuleIcon } from "@jet/propel/icons";
+import type { IModule } from "@jet/types";
+import { cn, sortBySelectedFirst } from "@jet/utils";
 // hooks
 import { usePlatformOS } from "@/hooks/use-platform-os";
 

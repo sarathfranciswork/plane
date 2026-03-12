@@ -7,12 +7,12 @@
 import type { FC } from "react";
 import React from "react";
 import { observer } from "mobx-react";
-import { MODULE_STATUS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TModuleStatus } from "@plane/propel/icons";
-import { ModuleStatusIcon } from "@plane/propel/icons";
-import type { IModule } from "@plane/types";
-import { CustomSelect } from "@plane/ui";
+import { MODULE_STATUS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import type { TModuleStatus } from "@jet/propel/icons";
+import { ModuleStatusIcon } from "@jet/propel/icons";
+import type { IModule } from "@jet/types";
+import { CustomSelect } from "@jet/ui";
 
 type Props = {
   isDisabled: boolean;

@@ -9,14 +9,14 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Controller, useForm } from "react-hook-form";
 // plane imports
-import { WEB_BASE_URL, ORGANIZATION_SIZE, RESTRICTED_URLS } from "@plane/constants";
-import { Button, getButtonStyling } from "@plane/propel/button";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import { InstanceWorkspaceService } from "@plane/services";
-import type { IWorkspace } from "@plane/types";
-import { validateSlug, validateWorkspaceName } from "@plane/utils";
+import { WEB_BASE_URL, ORGANIZATION_SIZE, RESTRICTED_URLS } from "@jet/constants";
+import { Button, getButtonStyling } from "@jet/propel/button";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import { InstanceWorkspaceService } from "@jet/services";
+import type { IWorkspace } from "@jet/types";
+import { validateSlug, validateWorkspaceName } from "@jet/utils";
 // components
-import { CustomSelect, Input } from "@plane/ui";
+import { CustomSelect, Input } from "@jet/ui";
 // hooks
 import { useWorkspace } from "@/hooks/store";
 

@@ -5,8 +5,8 @@
  */
 
 // plane imports
-import { API_BASE_URL } from "@plane/constants";
-import type { IPublicIssue, TIssuePublicComment, TPublicIssuesResponse } from "@plane/types";
+import { API_BASE_URL } from "@jet/constants";
+import type { IPublicIssue, TIssuePublicComment, TPublicIssuesResponse } from "@jet/types";
 // api service
 import { APIService } from "../api.service";
 

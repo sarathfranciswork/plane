@@ -6,11 +6,11 @@
 
 import { observer } from "mobx-react";
 // plane package imports
-import { getButtonStyling } from "@plane/propel/button";
-import { Logo } from "@plane/propel/emoji-icon-picker";
-import { ChevronDownIcon, ProjectIcon } from "@plane/propel/icons";
-import { CustomSearchSelect } from "@plane/ui";
-import { cn } from "@plane/utils";
+import { getButtonStyling } from "@jet/propel/button";
+import { Logo } from "@jet/propel/emoji-icon-picker";
+import { ChevronDownIcon, ProjectIcon } from "@jet/propel/icons";
+import { CustomSearchSelect } from "@jet/ui";
+import { cn } from "@jet/utils";
 // hooks
 import { useProject } from "@/hooks/store/use-project";
 

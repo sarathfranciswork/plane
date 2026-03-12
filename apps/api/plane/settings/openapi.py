@@ -19,7 +19,7 @@ SPECTACULAR_SETTINGS = {
         "[developers.plane.so](https://developers.plane.so/api-reference/introduction)."
     ),
     "CONTACT": {
-        "name": "Plane",
+        "name": "Jet",
         "url": "https://plane.so",
         "email": "support@plane.so",
     },

@@ -6,7 +6,7 @@
 
 import type { FC } from "react";
 import { observer } from "mobx-react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@jet/i18n";
 import type { TQuickAddIssueForm } from "../root";
 
 export const SpreadsheetQuickAddIssueForm = observer(function SpreadsheetQuickAddIssueForm(props: TQuickAddIssueForm) {

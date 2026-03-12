@@ -8,12 +8,12 @@ import type { FC } from "react";
 import { observer } from "mobx-react";
 
 // plane types
-import { CloseIcon } from "@plane/propel/icons";
-import type { TInboxIssueFilterMemberKeys } from "@plane/types";
+import { CloseIcon } from "@jet/propel/icons";
+import type { TInboxIssueFilterMemberKeys } from "@jet/types";
 // plane ui
-import { Avatar, Tag } from "@plane/ui";
+import { Avatar, Tag } from "@jet/ui";
 // helpers
-import { getFileURL } from "@plane/utils";
+import { getFileURL } from "@jet/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 import { useProjectInbox } from "@/hooks/store/use-project-inbox";

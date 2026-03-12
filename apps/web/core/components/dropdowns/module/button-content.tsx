@@ -5,9 +5,9 @@
  */
 
 // plane imports
-import { CloseIcon, ModuleIcon, ChevronDownIcon } from "@plane/propel/icons";
-import { Tooltip } from "@plane/propel/tooltip";
-import { cn } from "@plane/utils";
+import { CloseIcon, ModuleIcon, ChevronDownIcon } from "@jet/propel/icons";
+import { Tooltip } from "@jet/propel/tooltip";
+import { cn } from "@jet/utils";
 // hooks
 import { useModule } from "@/hooks/store/use-module";
 import { usePlatformOS } from "@/hooks/use-platform-os";

@@ -8,10 +8,10 @@ import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
 import { Telescope } from "lucide-react";
 // plane imports
-import { Button } from "@plane/propel/button";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import type { IInstance, IInstanceAdmin } from "@plane/types";
-import { Input, ToggleSwitch } from "@plane/ui";
+import { Button } from "@jet/propel/button";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import type { IInstance, IInstanceAdmin } from "@jet/types";
+import { Input, ToggleSwitch } from "@jet/ui";
 // components
 import { ControllerInput } from "@/components/common/controller-input";
 // hooks
@@ -122,9 +122,9 @@ export const GeneralConfigurationForm = observer(function GeneralConfigurationFo
               </div>
             </div>
             <div className="grow">
-              <div className="text-13 leading-5 font-medium text-primary">Let Plane collect anonymous usage data</div>
+              <div className="text-13 leading-5 font-medium text-primary">Let Jet collect anonymous usage data</div>
               <div className="text-11 leading-5 font-regular text-tertiary">
-                No PII is collected.This anonymized data is used to understand how you use Plane and build new features
+                No PII is collected.This anonymized data is used to understand how you use Jet and build new features
                 in line with{" "}
                 <a
                   href="https://developers.plane.so/self-hosting/telemetry"

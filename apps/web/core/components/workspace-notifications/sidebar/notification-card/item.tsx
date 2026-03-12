@@ -8,8 +8,8 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { Clock } from "lucide-react";
 // plane imports
-import { Avatar, Row } from "@plane/ui";
-import { cn, calculateTimeAgo, renderFormattedDate, renderFormattedTime, getFileURL } from "@plane/utils";
+import { Avatar, Row } from "@jet/ui";
+import { cn, calculateTimeAgo, renderFormattedDate, renderFormattedTime, getFileURL } from "@jet/utils";
 // hooks
 import { useWorkspaceNotifications } from "@/hooks/store/notifications";
 import { useNotification } from "@/hooks/store/notifications/use-notification";

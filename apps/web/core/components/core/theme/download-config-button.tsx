@@ -7,10 +7,10 @@
 import { observer } from "mobx-react";
 import type { UseFormGetValues } from "react-hook-form";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { Button } from "@plane/propel/button";
-import { setToast, TOAST_TYPE } from "@plane/propel/toast";
-import type { IUserTheme } from "@plane/types";
+import { useTranslation } from "@jet/i18n";
+import { Button } from "@jet/propel/button";
+import { setToast, TOAST_TYPE } from "@jet/propel/toast";
+import type { IUserTheme } from "@jet/types";
 
 type Props = {
   getValues: UseFormGetValues<IUserTheme>;

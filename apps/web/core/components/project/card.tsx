@@ -10,17 +10,17 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { ArchiveRestoreIcon, Settings, UserPlus } from "lucide-react";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel, IS_FAVORITE_MENU_OPEN } from "@plane/constants";
-import { useLocalStorage } from "@plane/hooks";
-import { Button } from "@plane/propel/button";
-import { Logo } from "@plane/propel/emoji-icon-picker";
-import { LinkIcon, LockIcon, NewTabIcon, TrashIcon, CheckIcon } from "@plane/propel/icons";
-import { setPromiseToast, setToast, TOAST_TYPE } from "@plane/propel/toast";
-import { Tooltip } from "@plane/propel/tooltip";
-import type { IProject } from "@plane/types";
-import type { TContextMenuItem } from "@plane/ui";
-import { Avatar, AvatarGroup, ContextMenu, FavoriteStar } from "@plane/ui";
-import { copyUrlToClipboard, cn, getFileURL, renderFormattedDate } from "@plane/utils";
+import { EUserPermissions, EUserPermissionsLevel, IS_FAVORITE_MENU_OPEN } from "@jet/constants";
+import { useLocalStorage } from "@jet/hooks";
+import { Button } from "@jet/propel/button";
+import { Logo } from "@jet/propel/emoji-icon-picker";
+import { LinkIcon, LockIcon, NewTabIcon, TrashIcon, CheckIcon } from "@jet/propel/icons";
+import { setPromiseToast, setToast, TOAST_TYPE } from "@jet/propel/toast";
+import { Tooltip } from "@jet/propel/tooltip";
+import type { IProject } from "@jet/types";
+import type { TContextMenuItem } from "@jet/ui";
+import { Avatar, AvatarGroup, ContextMenu, FavoriteStar } from "@jet/ui";
+import { copyUrlToClipboard, cn, getFileURL, renderFormattedDate } from "@jet/utils";
 // components
 // hooks
 import { useMember } from "@/hooks/store/use-member";

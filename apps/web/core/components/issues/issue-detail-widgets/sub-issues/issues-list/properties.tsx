@@ -8,10 +8,10 @@
 import type { SyntheticEvent } from "react";
 import { useMemo } from "react";
 import { observer } from "mobx-react";
-import { useTranslation } from "@plane/i18n";
-import { StartDatePropertyIcon, DueDatePropertyIcon } from "@plane/propel/icons";
-import type { IIssueDisplayProperties, TIssue } from "@plane/types";
-import { getDate, renderFormattedPayloadDate, shouldHighlightIssueDueDate } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import { StartDatePropertyIcon, DueDatePropertyIcon } from "@jet/propel/icons";
+import type { IIssueDisplayProperties, TIssue } from "@jet/types";
+import { getDate, renderFormattedPayloadDate, shouldHighlightIssueDueDate } from "@jet/utils";
 // components
 import { DateDropdown } from "@/components/dropdowns/date";
 import { DateRangeDropdown } from "@/components/dropdowns/date-range";

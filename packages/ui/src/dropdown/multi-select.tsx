@@ -10,7 +10,7 @@ import type { FC } from "react";
 import React, { useMemo, useRef, useState } from "react";
 import { usePopper } from "react-popper";
 // plane imports
-import { useOutsideClickDetector } from "@plane/hooks";
+import { useOutsideClickDetector } from "@jet/hooks";
 // local imports
 import { useDropdownKeyPressed } from "../hooks/use-dropdown-key-pressed";
 import { cn } from "../utils";

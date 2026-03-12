@@ -6,11 +6,11 @@
 
 import { observer } from "mobx-react";
 import { Paperclip } from "lucide-react";
-import { LinkIcon, ViewsIcon } from "@plane/propel/icons";
+import { LinkIcon, ViewsIcon } from "@jet/propel/icons";
 // plane imports
-import { Tooltip } from "@plane/propel/tooltip";
-import type { IIssueDisplayProperties } from "@plane/types";
-import { cn } from "@plane/utils";
+import { Tooltip } from "@jet/propel/tooltip";
+import type { IIssueDisplayProperties } from "@jet/types";
+import { cn } from "@jet/utils";
 // components
 import { WithDisplayPropertiesHOC } from "@/components/issues/issue-layouts/with-display-properties-HOC";
 // helpers

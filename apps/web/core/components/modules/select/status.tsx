@@ -9,12 +9,12 @@ import React from "react";
 // react hook form
 import type { FieldError, Control } from "react-hook-form";
 import { Controller } from "react-hook-form";
-import { MODULE_STATUS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { StatePropertyIcon, ModuleStatusIcon } from "@plane/propel/icons";
-import type { IModule } from "@plane/types";
+import { MODULE_STATUS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { StatePropertyIcon, ModuleStatusIcon } from "@jet/propel/icons";
+import type { IModule } from "@jet/types";
 // ui
-import { CustomSelect } from "@plane/ui";
+import { CustomSelect } from "@jet/ui";
 // types
 // constants
 

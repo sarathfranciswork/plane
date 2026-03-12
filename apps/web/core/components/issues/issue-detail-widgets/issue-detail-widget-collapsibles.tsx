@@ -8,7 +8,7 @@ import type { FC } from "react";
 import React from "react";
 import { observer } from "mobx-react";
 // plane imports
-import type { TIssueServiceType, TWorkItemWidgets } from "@plane/types";
+import type { TIssueServiceType, TWorkItemWidgets } from "@jet/types";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 // Plane-web

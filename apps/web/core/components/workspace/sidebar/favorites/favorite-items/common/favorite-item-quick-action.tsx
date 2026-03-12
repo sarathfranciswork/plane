@@ -8,11 +8,11 @@ import React from "react";
 import { observer } from "mobx-react";
 import { MoreHorizontal, Star } from "lucide-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import type { IFavorite } from "@plane/types";
-import { CustomMenu } from "@plane/ui";
+import { useTranslation } from "@jet/i18n";
+import type { IFavorite } from "@jet/types";
+import { CustomMenu } from "@jet/ui";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 
 type Props = {
   ref: React.MutableRefObject<HTMLDivElement | null>;

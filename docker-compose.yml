@@ -1,6 +1,6 @@
 services:
   web:
-    container_name: web
+    container_name: jet-web
     build:
       context: .
       dockerfile: ./apps/web/Dockerfile.web
@@ -11,7 +11,7 @@ services:
       - api
 
   admin:
-    container_name: admin
+    container_name: jet-admin
     build:
       context: .
       dockerfile: ./apps/admin/Dockerfile.admin
@@ -23,7 +23,7 @@ services:
       - web
 
   space:
-    container_name: space
+    container_name: jet-space
     build:
       context: .
       dockerfile: ./apps/space/Dockerfile.space
@@ -35,7 +35,7 @@ services:
       - web
 
   api:
-    container_name: api
+    container_name: jet-api
     build:
       context: ./apps/api
       dockerfile: Dockerfile.api
@@ -46,11 +46,11 @@ services:
     env_file:
       - ./apps/api/.env
     depends_on:
-      - plane-db
-      - plane-redis
+      - jet-db
+      - jet-redis
 
   worker:
-    container_name: bgworker
+    container_name: jet-bgworker
     build:
       context: ./apps/api
       dockerfile: Dockerfile.api
@@ -62,11 +62,11 @@ services:
       - ./apps/api/.env
     depends_on:
       - api
-      - plane-db
-      - plane-redis
+      - jet-db
+      - jet-redis
 
   beat-worker:
-    container_name: beatworker
+    container_name: jet-beatworker
     build:
       context: ./apps/api
       dockerfile: Dockerfile.api
@@ -78,11 +78,11 @@ services:
       - ./apps/api/.env
     depends_on:
       - api
-      - plane-db
-      - plane-redis
+      - jet-db
+      - jet-redis
 
   migrator:
-    container_name: plane-migrator
+    container_name: jet-migrator
     build:
       context: ./apps/api
       dockerfile: Dockerfile.api
@@ -93,11 +93,11 @@ services:
     env_file:
       - ./apps/api/.env
     depends_on:
-      - plane-db
-      - plane-redis
+      - jet-db
+      - jet-redis
 
   live:
-    container_name: plane-live
+    container_name: jet-live
     build:
       context: .
       dockerfile: ./apps/live/Dockerfile.live
@@ -105,8 +105,8 @@ services:
         DOCKER_BUILDKIT: 1
     restart: always
 
-  plane-db:
-    container_name: plane-db
+  jet-db:
+    container_name: jet-db
     image: postgres:15.7-alpine
     restart: always
     command: postgres -c 'max_connections=1000'
@@ -120,15 +120,15 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       PGDATA: /var/lib/postgresql/data
 
-  plane-redis:
-    container_name: plane-redis
+  jet-redis:
+    container_name: jet-redis
     image: valkey/valkey:7.2.11-alpine
     restart: always
     volumes:
       - redisdata:/data
 
-  plane-mq:
-    container_name: plane-mq
+  jet-mq:
+    container_name: jet-mq
     image: rabbitmq:3.13.6-management-alpine
     restart: always
     env_file:
@@ -140,8 +140,8 @@ services:
     volumes:
       - rabbitmq_data:/var/lib/rabbitmq
 
-  plane-minio:
-    container_name: plane-minio
+  jet-minio:
+    container_name: jet-minio
     image: minio/minio
     restart: always
     command: server /export --console-address ":9090"
@@ -153,7 +153,7 @@ services:
 
   # Comment this if you already have a reverse proxy running
   proxy:
-    container_name: proxy
+    container_name: jet-proxy
     build:
       context: ./apps/proxy
       dockerfile: Dockerfile.ce

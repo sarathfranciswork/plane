@@ -8,11 +8,11 @@ import { useState, useRef } from "react";
 import { observer } from "mobx-react";
 
 // plane imports
-import { EIconSize, STATE_TRACKER_ELEMENTS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { PlusIcon, StateGroupIcon, ChevronDownIcon } from "@plane/propel/icons";
-import type { IState, TStateGroups, TStateOperationsCallbacks } from "@plane/types";
-import { cn } from "@plane/utils";
+import { EIconSize, STATE_TRACKER_ELEMENTS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { PlusIcon, StateGroupIcon, ChevronDownIcon } from "@jet/propel/icons";
+import type { IState, TStateGroups, TStateOperationsCallbacks } from "@jet/types";
+import { cn } from "@jet/utils";
 // components
 import { StateList, StateCreate } from "@/components/project-states";
 

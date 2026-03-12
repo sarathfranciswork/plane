@@ -8,8 +8,8 @@ import type { FC } from "react";
 import React from "react";
 import { observer } from "mobx-react";
 // plane imports
-import type { TIssue, TIssueServiceType } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
+import type { TIssue, TIssueServiceType } from "@jet/types";
+import { EIssueServiceType } from "@jet/types";
 // Plane-web imports
 import type { TIssueRelationTypes } from "@/plane-web/types";
 // local imports

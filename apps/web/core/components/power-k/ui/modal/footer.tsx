@@ -7,8 +7,8 @@
 import type React from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { ToggleSwitch } from "@plane/ui";
+import { useTranslation } from "@jet/i18n";
+import { ToggleSwitch } from "@jet/ui";
 
 type Props = {
   isWorkspaceLevel: boolean;

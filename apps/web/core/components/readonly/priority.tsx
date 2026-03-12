@@ -6,11 +6,11 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { ISSUE_PRIORITIES } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { PriorityIcon } from "@plane/propel/icons";
-import type { TIssuePriorities } from "@plane/types";
-import { cn } from "@plane/utils";
+import { ISSUE_PRIORITIES } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
+import { PriorityIcon } from "@jet/propel/icons";
+import type { TIssuePriorities } from "@jet/types";
+import { cn } from "@jet/utils";
 
 export type TReadonlyPriorityProps = {
   className?: string;

@@ -8,8 +8,8 @@ import { useEffect } from "react";
 import { observer } from "mobx-react";
 import { Layers } from "lucide-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@jet/i18n";
+import { cn } from "@jet/utils";
 // hooks
 import { useModule } from "@/hooks/store/use-module";
 

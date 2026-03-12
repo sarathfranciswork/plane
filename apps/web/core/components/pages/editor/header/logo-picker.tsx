@@ -7,8 +7,8 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { EmojiPicker, EmojiIconPickerTypes, Logo } from "@plane/propel/emoji-icon-picker";
-import { cn } from "@plane/utils";
+import { EmojiPicker, EmojiIconPickerTypes, Logo } from "@jet/propel/emoji-icon-picker";
+import { cn } from "@jet/utils";
 // store
 import type { TPageInstance } from "@/store/pages/base-page";
 

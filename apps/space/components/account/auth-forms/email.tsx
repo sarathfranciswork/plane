@@ -10,12 +10,12 @@ import { observer } from "mobx-react";
 // icons
 import { CircleAlert, XCircle } from "lucide-react";
 // types
-import { Button } from "@plane/propel/button";
-import type { IEmailCheckData } from "@plane/types";
+import { Button } from "@jet/propel/button";
+import type { IEmailCheckData } from "@jet/types";
 // ui
-import { Input, Spinner } from "@plane/ui";
+import { Input, Spinner } from "@jet/ui";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 import { checkEmailValidity } from "@/helpers/string.helper";
 
 type TAuthEmailForm = {

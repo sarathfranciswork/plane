@@ -6,7 +6,7 @@
 
 import type { FC } from "react";
 import { MoveRight } from "lucide-react";
-import { Tooltip } from "@plane/propel/tooltip";
+import { Tooltip } from "@jet/propel/tooltip";
 // assets
 import emptyIssue from "@/app/assets/empty-state/issue.svg?url";
 // components

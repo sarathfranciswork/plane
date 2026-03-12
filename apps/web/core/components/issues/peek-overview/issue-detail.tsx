@@ -8,11 +8,11 @@ import type { FC } from "react";
 import { useEffect } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import type { EditorRefApi } from "@plane/editor";
-import { EFileAssetType } from "@plane/types";
-import type { TNameDescriptionLoader } from "@plane/types";
+import type { EditorRefApi } from "@jet/editor";
+import { EFileAssetType } from "@jet/types";
+import type { TNameDescriptionLoader } from "@jet/types";
 // components
-import { getTextContent } from "@plane/utils";
+import { getTextContent } from "@jet/utils";
 // components
 import { DescriptionVersionsRoot } from "@/components/core/description-versions";
 import { DescriptionInput } from "@/components/editor/rich-text/description-input";

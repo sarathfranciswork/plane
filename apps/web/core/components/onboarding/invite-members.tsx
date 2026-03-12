@@ -20,16 +20,16 @@ import { usePopper } from "react-popper";
 import { XCircle } from "lucide-react";
 import { Listbox } from "@headlessui/react";
 // plane imports
-import type { EUserPermissions } from "@plane/constants";
-import { ROLE, ROLE_DETAILS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import type { EUserPermissions } from "@jet/constants";
+import { ROLE, ROLE_DETAILS } from "@jet/constants";
+import { useTranslation } from "@jet/i18n";
 // types
-import { Button } from "@plane/propel/button";
-import { PlusIcon, CheckIcon, ChevronDownIcon } from "@plane/propel/icons";
-import { TOAST_TYPE, setToast } from "@plane/propel/toast";
-import type { IUser, IWorkspace } from "@plane/types";
+import { Button } from "@jet/propel/button";
+import { PlusIcon, CheckIcon, ChevronDownIcon } from "@jet/propel/icons";
+import { TOAST_TYPE, setToast } from "@jet/propel/toast";
+import type { IUser, IWorkspace } from "@jet/types";
 // ui
-import { Input, Spinner } from "@plane/ui";
+import { Input, Spinner } from "@jet/ui";
 // services
 import { WorkspaceService } from "@/services/workspace.service";
 // components

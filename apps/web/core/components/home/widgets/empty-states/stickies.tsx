@@ -4,8 +4,8 @@
  * See the LICENSE file for details.
  */
 
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateCompact } from "@plane/propel/empty-state";
+import { useTranslation } from "@jet/i18n";
+import { EmptyStateCompact } from "@jet/propel/empty-state";
 
 export function StickiesEmptyState() {
   const { t } = useTranslation();

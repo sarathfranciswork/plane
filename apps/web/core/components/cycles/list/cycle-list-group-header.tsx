@@ -7,12 +7,12 @@
 import type { FC } from "react";
 import React from "react";
 // types
-import { CycleGroupIcon, ChevronDownIcon } from "@plane/propel/icons";
-import type { TCycleGroups } from "@plane/types";
+import { CycleGroupIcon, ChevronDownIcon } from "@jet/propel/icons";
+import type { TCycleGroups } from "@jet/types";
 // icons
-import { Row } from "@plane/ui";
+import { Row } from "@jet/ui";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 
 type Props = {
   type: TCycleGroups;

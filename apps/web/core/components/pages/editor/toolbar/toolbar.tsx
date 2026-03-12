@@ -5,12 +5,12 @@
  */
 
 import React, { useEffect, useState, useCallback } from "react";
-import type { EditorRefApi } from "@plane/editor";
+import type { EditorRefApi } from "@jet/editor";
 // plane imports
-import { CheckIcon, ChevronDownIcon } from "@plane/propel/icons";
-import { Tooltip } from "@plane/propel/tooltip";
-import { CustomMenu } from "@plane/ui";
-import { cn } from "@plane/utils";
+import { CheckIcon, ChevronDownIcon } from "@jet/propel/icons";
+import { Tooltip } from "@jet/propel/tooltip";
+import { CustomMenu } from "@jet/ui";
+import { cn } from "@jet/utils";
 // constants
 import type { ToolbarMenuItem } from "@/constants/editor";
 import { TOOLBAR_ITEMS, TYPOGRAPHY_ITEMS } from "@/constants/editor";

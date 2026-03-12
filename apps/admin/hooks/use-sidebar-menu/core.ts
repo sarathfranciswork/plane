@@ -6,7 +6,7 @@
 
 import { Image, BrainCog, Cog, Mail } from "lucide-react";
 // plane imports
-import { LockIcon, WorkspaceIcon } from "@plane/propel/icons";
+import { LockIcon, WorkspaceIcon } from "@jet/propel/icons";
 // types
 import type { TSidebarMenuItem } from "./types";
 

@@ -6,11 +6,11 @@
 
 import { observer } from "mobx-react";
 import Link from "next/link";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@jet/i18n";
 // ui
-import { Button, getButtonStyling } from "@plane/propel/button";
-import { Logo } from "@plane/propel/emoji-icon-picker";
-import { Row } from "@plane/ui";
+import { Button, getButtonStyling } from "@jet/propel/button";
+import { Logo } from "@jet/propel/emoji-icon-picker";
+import { Row } from "@jet/ui";
 // components
 // hooks
 import { useProject } from "@/hooks/store/use-project";

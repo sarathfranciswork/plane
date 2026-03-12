@@ -6,9 +6,9 @@
 
 import { observer } from "mobx-react";
 // ui
-import { GANTT_TIMELINE_TYPE } from "@plane/types";
-import type { IBlockUpdateData } from "@plane/types";
-import { Loader } from "@plane/ui";
+import { GANTT_TIMELINE_TYPE } from "@jet/types";
+import type { IBlockUpdateData } from "@jet/types";
+import { Loader } from "@jet/ui";
 // components
 // hooks
 import { useTimeLineChart } from "@/hooks/use-timeline-chart";

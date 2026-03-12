@@ -7,7 +7,7 @@
 import { useCallback, useMemo } from "react";
 import { AtSign, Briefcase } from "lucide-react";
 // plane imports
-import { Logo } from "@plane/propel/emoji-icon-picker";
+import { Logo } from "@jet/propel/emoji-icon-picker";
 import {
   CalendarLayoutIcon,
   CycleGroupIcon,
@@ -22,7 +22,7 @@ import {
   DueDatePropertyIcon,
   UserCirclePropertyIcon,
   PriorityPropertyIcon,
-} from "@plane/propel/icons";
+} from "@jet/propel/icons";
 import type {
   ICycle,
   IState,
@@ -32,8 +32,8 @@ import type {
   IModule,
   IProject,
   TWorkItemFilterProperty,
-} from "@plane/types";
-import { Avatar } from "@plane/ui";
+} from "@jet/types";
+import { Avatar } from "@jet/ui";
 import {
   getAssigneeFilterConfig,
   getCreatedAtFilterConfig,
@@ -52,7 +52,7 @@ import {
   getTargetDateFilterConfig,
   getUpdatedAtFilterConfig,
   isLoaderReady,
-} from "@plane/utils";
+} from "@jet/utils";
 // store hooks
 import { useCycle } from "@/hooks/store/use-cycle";
 import { useLabel } from "@/hooks/store/use-label";

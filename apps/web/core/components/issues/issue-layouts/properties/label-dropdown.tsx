@@ -11,16 +11,16 @@ import { usePopper } from "react-popper";
 import { Loader } from "lucide-react";
 import { Combobox } from "@headlessui/react";
 // plane imports
-import { EUserPermissionsLevel, getRandomLabelColor } from "@plane/constants";
-import { useOutsideClickDetector } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
-import { CheckIcon, SearchIcon, ChevronDownIcon } from "@plane/propel/icons";
+import { EUserPermissionsLevel, getRandomLabelColor } from "@jet/constants";
+import { useOutsideClickDetector } from "@jet/hooks";
+import { useTranslation } from "@jet/i18n";
+import { CheckIcon, SearchIcon, ChevronDownIcon } from "@jet/propel/icons";
 // types
-import type { IIssueLabel } from "@plane/types";
-import { EUserProjectRoles } from "@plane/types";
+import type { IIssueLabel } from "@jet/types";
+import { EUserProjectRoles } from "@jet/types";
 // components
-import { ComboDropDown } from "@plane/ui";
-import { sortBySelectedFirst } from "@plane/utils";
+import { ComboDropDown } from "@jet/ui";
+import { sortBySelectedFirst } from "@jet/utils";
 // hooks
 import { useLabel } from "@/hooks/store/use-label";
 import { useUserPermissions } from "@/hooks/store/user";

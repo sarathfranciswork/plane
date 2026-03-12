@@ -15,8 +15,8 @@ import type {
   TFilterOptions,
   TSaveViewOptions,
   TUpdateViewOptions,
-} from "@plane/constants";
-import { DEFAULT_FILTER_VISIBILITY_OPTIONS } from "@plane/constants";
+} from "@jet/constants";
+import { DEFAULT_FILTER_VISIBILITY_OPTIONS } from "@jet/constants";
 import type {
   IFilterAdapter,
   SingleOrArray,
@@ -30,8 +30,8 @@ import type {
   TFilterValue,
   TLogicalOperator,
   TSupportedOperators,
-} from "@plane/types";
-import { FILTER_NODE_TYPE } from "@plane/types";
+} from "@jet/types";
+import { FILTER_NODE_TYPE } from "@jet/types";
 // local imports
 import {
   deepCompareFilterExpressions,
@@ -44,7 +44,7 @@ import {
   sanitizeAndStabilizeExpression,
   shouldNotifyChangeForExpression,
   updateNodeInExpression,
-} from "@plane/utils";
+} from "@jet/utils";
 import type { IFilterConfigManager } from "./config-manager";
 import { FilterConfigManager } from "./config-manager";
 import type { IFilterInstanceHelper } from "./filter-helpers";

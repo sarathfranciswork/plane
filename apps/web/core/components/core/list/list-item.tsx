@@ -6,10 +6,10 @@
 
 import React from "react";
 // ui
-import { Tooltip } from "@plane/propel/tooltip";
-import { ControlLink, Row } from "@plane/ui";
+import { Tooltip } from "@jet/propel/tooltip";
+import { ControlLink, Row } from "@jet/ui";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@jet/utils";
 // hooks
 import { useAppRouter } from "@/hooks/use-app-router";
 

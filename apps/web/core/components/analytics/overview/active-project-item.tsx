@@ -5,10 +5,10 @@
  */
 
 // plane package imports
-import { Logo } from "@plane/propel/emoji-icon-picker";
-import { ProjectIcon } from "@plane/propel/icons";
-import { Tooltip } from "@plane/propel/tooltip";
-import { cn } from "@plane/utils";
+import { Logo } from "@jet/propel/emoji-icon-picker";
+import { ProjectIcon } from "@jet/propel/icons";
+import { Tooltip } from "@jet/propel/tooltip";
+import { cn } from "@jet/utils";
 // plane web hooks
 import { useProject } from "@/hooks/store/use-project";
 

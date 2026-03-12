@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 import { RotateCcw } from "lucide-react";
 // hooks
-import { ArchiveIcon } from "@plane/propel/icons";
+import { ArchiveIcon } from "@jet/propel/icons";
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 // components
 import { IssueActivityBlockComponent } from "./";

@@ -5,9 +5,9 @@
  */
 
 import Link from "next/link";
-import { Button } from "@plane/propel/button";
+import { Button } from "@jet/propel/button";
 // assets
-import PlaneTakeOffImage from "@/app/assets/images/plane-takeoff.png?url";
+import PlaneTakeOffImage from "@/app/assets/images/jet-takeoff.png?url";
 
 export function InstanceNotReady() {
   return (

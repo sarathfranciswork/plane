@@ -1,5 +1,5 @@
 {
-  "name": "@plane/services",
+  "name": "@jet/services",
   "version": "1.2.0",
   "private": true,
   "license": "AGPL-3.0",
@@ -25,13 +25,13 @@
     "clean": "rm -rf .turbo && rm -rf .next && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "@plane/constants": "workspace:*",
-    "@plane/types": "workspace:*",
+    "@jet/constants": "workspace:*",
+    "@jet/types": "workspace:*",
     "axios": "catalog:",
     "file-type": "^21.0.0"
   },
   "devDependencies": {
-    "@plane/typescript-config": "workspace:*",
+    "@jet/typescript-config": "workspace:*",
     "tsdown": "catalog:",
     "typescript": "catalog:"
   }

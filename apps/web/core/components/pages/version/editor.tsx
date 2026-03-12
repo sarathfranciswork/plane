@@ -7,10 +7,10 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import type { TDisplayConfig } from "@plane/editor";
-import type { JSONContent, TPageVersion } from "@plane/types";
-import { Loader } from "@plane/ui";
-import { isJSONContentEmpty } from "@plane/utils";
+import type { TDisplayConfig } from "@jet/editor";
+import type { JSONContent, TPageVersion } from "@jet/types";
+import { Loader } from "@jet/ui";
+import { isJSONContentEmpty } from "@jet/utils";
 // components
 import { DocumentEditor } from "@/components/editor/document/editor";
 // hooks
